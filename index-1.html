@@ -1,0 +1,1978 @@
+<!doctype html>
+<html lang="ur" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>حق الیقین انسٹیٹیوٹ | Haqqul Yaqeen Institute</title>
+<meta name="description" content="ہر بہن اور ہر بیٹی کے لیے دین سیکھنے کا آسان، مستند اور خوبصورت ٹھکانہ">
+<meta property="og:title" content="حق الیقین انسٹیٹیوٹ"><meta property="og:type" content="website">
+<meta name="theme-color" content="#0f766e">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri+Quran&amp;family=Cormorant+Garamond:ital,wght@1,600&amp;family=Noto+Nastaliq+Urdu:wght@400;500;600;700&amp;family=Noto+Sans+Arabic:wght@400;500;600;700&amp;display=swap">
+<style id="hy-style">/* Layout: sticky header + scrollable section tabs, a hero band with one large eight-point star emblem, then calm card grids and long-form reading pages. */
+:root {
+  --bg: #F3F2F8;
+  --surface: #FFFFFF;
+  --surface-2: #EAE8F3;
+  --ink: #1B1A33;
+  --muted: #5B5978;
+  --line: #D9D6E8;
+  --accent: #0B6B62;
+  --accent-ink: #FFFFFF;
+  --accent-soft: #D5EEEA;
+  --rose: #A8325F;
+  --rose-soft: #F6DCE6;
+  --hero-a: #1B1A33;
+  --hero-b: #2D2B5C;
+  --hero-ink: #F4F2FF;
+  --hero-muted: #C9C6E6;
+  --hero-line: #7F7BD0;
+  --shadow: 0 1px 2px rgba(27, 26, 51, .06), 0 10px 28px rgba(27, 26, 51, .07);
+  --f-ur: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', 'Jameel Noori Nastaleeq', serif;
+  --f-ui: 'Noto Sans Arabic', 'Segoe UI', Tahoma, system-ui, sans-serif;
+  --f-ar: 'Amiri Quran', 'Scheherazade New', 'Traditional Arabic', serif;
+  --f-en: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #100F1C;
+    --surface: #1A1930;
+    --surface-2: #242245;
+    --ink: #EDEBFA;
+    --muted: #A9A7C6;
+    --line: #34325A;
+    --accent: #48C7B8;
+    --accent-ink: #06211E;
+    --accent-soft: #16363A;
+    --rose: #EE8FB0;
+    --rose-soft: #3A2035;
+    --hero-a: #0C0B18;
+    --hero-b: #1F1D45;
+    --hero-line: #6E6AC4;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 28px rgba(0, 0, 0, .35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #100F1C;
+  --surface: #1A1930;
+  --surface-2: #242245;
+  --ink: #EDEBFA;
+  --muted: #A9A7C6;
+  --line: #34325A;
+  --accent: #48C7B8;
+  --accent-ink: #06211E;
+  --accent-soft: #16363A;
+  --rose: #EE8FB0;
+  --rose-soft: #3A2035;
+  --hero-a: #0C0B18;
+  --hero-b: #1F1D45;
+  --hero-line: #6E6AC4;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 28px rgba(0, 0, 0, .35);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-ur);
+  font-size: 17px;
+  line-height: 2.1;
+  -webkit-text-size-adjust: 100%;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 40;
+  background: var(--surface);
+}
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3, h4 { margin: 0; text-wrap: balance; font-weight: 600; line-height: 1.9; }
+p { margin: 0; }
+
+.wrap {
+  max-width: 1080px;
+  margin-inline: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.ui { font-family: var(--f-ui); line-height: 1.5; }
+
+/* header */
+.site-head {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 30;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+.head-row { display: flex; align-items: center; gap: 10px; padding-block: 8px; }
+.brand {
+  display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0;
+  background: none; border: 0; padding: 0; text-align: start; color: inherit;
+}
+.brand-mark { width: 38px; height: 38px; flex: none; color: var(--accent); }
+.brand-text { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
+.brand-ur { font-size: 1.05rem; font-weight: 700; white-space: nowrap; padding-top: 4px; }
+.brand-en { font-family: var(--f-en); font-style: italic; font-weight: 600; font-size: .92rem; color: var(--muted); white-space: nowrap; direction: ltr; text-align: start; }
+.icon-btn {
+  width: 40px; height: 40px; flex: none; display: grid; place-items: center;
+  background: transparent; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); position: relative;
+}
+.icon-btn:hover { background: var(--surface-2); }
+.icon-btn .dot { position: absolute; top: 6px; inset-inline-start: 6px; width: 9px; height: 9px; border-radius: 50%; background: var(--rose); border: 2px solid var(--surface); }
+.nav { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; padding-bottom: 0; }
+.nav::-webkit-scrollbar { display: none; }
+.nav button {
+  font-family: var(--f-ui); font-size: .95rem; font-weight: 500; line-height: 1.4;
+  background: none; border: 0; border-bottom: 3px solid transparent; color: var(--muted);
+  padding: 10px 14px 9px; white-space: nowrap; flex: none;
+}
+.nav button:hover { color: var(--ink); }
+.nav button[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); font-weight: 700; }
+
+/* hero */
+.hero {
+  position: relative; overflow: hidden; color: var(--hero-ink);
+  background: linear-gradient(140deg, var(--hero-a), var(--hero-b));
+}
+.hero::before {
+  content: ""; position: absolute; inset: 0; opacity: .55;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='88' viewBox='0 0 88 88' fill='none' stroke='%237F7BD0' stroke-width='1' stroke-opacity='.28'%3E%3Crect x='24' y='24' width='40' height='40'/%3E%3Crect x='24' y='24' width='40' height='40' transform='rotate(45 44 44)'/%3E%3Cpath d='M0 0l24 24M88 0L64 24M0 88l24-24M88 88L64 64'/%3E%3C/svg%3E");
+  -webkit-mask-image: linear-gradient(to left, transparent 0%, #000 60%);
+  mask-image: linear-gradient(to left, transparent 0%, #000 60%);
+}
+.hero-in { position: relative; display: grid; grid-template-columns: 1.4fr 1fr; align-items: center; gap: 28px; padding-block: 48px 56px; }
+.hero-eyebrow { font-family: var(--f-ui); font-size: .82rem; letter-spacing: .08em; color: var(--hero-muted); text-transform: uppercase; direction: ltr; text-align: start; }
+.hero h1 { font-size: clamp(2rem, 6vw, 3.1rem); margin-top: 6px; line-height: 1.8; }
+.hero p.lead { color: var(--hero-muted); max-width: 34em; margin-top: 8px; font-size: 1.05rem; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.hero-emblem { width: min(100%, 300px); justify-self: center; }
+.hero-emblem svg { width: 100%; height: auto; display: block; }
+.em-a { fill: none; stroke: var(--hero-line); stroke-width: 1.4; }
+.em-b { fill: none; stroke: #E9A5C0; stroke-width: 1.2; stroke-opacity: .8; }
+.em-c { fill: rgba(255,255,255,.04); stroke: var(--hero-line); stroke-width: 1; stroke-opacity: .6; }
+.em-t { fill: var(--hero-ink); font-family: var(--f-ar); }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; justify-content: center;
+  font-family: var(--f-ui); font-weight: 600; font-size: .95rem; line-height: 1.4;
+  padding: 11px 18px; border-radius: 12px; border: 1px solid transparent; text-decoration: none;
+  background: var(--accent); color: var(--accent-ink);
+}
+.btn:hover { filter: brightness(1.08); }
+.btn.ghost { background: transparent; color: inherit; border-color: currentColor; }
+.hero .btn.ghost { color: var(--hero-ink); border-color: rgba(244,242,255,.5); }
+.btn.soft { background: var(--accent-soft); color: var(--accent); }
+.btn.danger { background: var(--rose-soft); color: var(--rose); }
+.btn.sm { padding: 7px 12px; font-size: .85rem; border-radius: 10px; }
+.btn[disabled] { opacity: .5; cursor: not-allowed; }
+
+/* sections */
+.section { padding-block: 36px 8px; }
+.sec-head { display: flex; align-items: end; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+.sec-head h2 { font-size: 1.5rem; }
+.sec-head .sub { color: var(--muted); font-size: .95rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 14px; }
+.card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px;
+  text-align: start; color: inherit; min-width: 0; display: flex; flex-direction: column; gap: 4px;
+}
+button.card:hover, a.card:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+.card h3 { font-size: 1.12rem; line-height: 1.9; }
+.card .meta { color: var(--muted); font-size: .88rem; font-family: var(--f-ui); line-height: 1.6; }
+.card p.txt { color: var(--muted); font-size: .98rem; line-height: 2; }
+.ico {
+  width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center;
+  background: var(--accent-soft); color: var(--accent); margin-bottom: 6px;
+}
+.card.sec .count { margin-top: auto; font-family: var(--f-ui); font-size: .82rem; color: var(--accent); font-weight: 600; padding-top: 6px; }
+
+.daily {
+  margin-top: -28px; position: relative; z-index: 2;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); padding: 22px 22px 18px;
+}
+.daily .tag { font-family: var(--f-ui); font-size: .8rem; font-weight: 600; color: var(--rose); letter-spacing: .02em; }
+.ar { font-family: var(--f-ar); direction: rtl; text-align: right; line-height: 2.1; font-size: 30px; }
+.daily .ar { font-size: clamp(24px, 4.4vw, 34px); margin-top: 6px; }
+.daily .ur { margin-top: 6px; }
+.daily .ref { font-family: var(--f-ui); font-size: .85rem; color: var(--muted); margin-top: 6px; }
+
+.about { background: var(--surface); border-block: 1px solid var(--line); margin-top: 36px; padding-block: 34px; }
+.about p { max-width: 44em; color: var(--muted); }
+
+.foot { padding-block: 30px 44px; color: var(--muted); font-family: var(--f-ui); font-size: .88rem; line-height: 1.8; }
+.foot b { color: var(--ink); }
+
+/* page header */
+.page-head { padding-block: 26px 10px; }
+.page-head h1 { font-size: 1.9rem; }
+.page-head p { color: var(--muted); max-width: 40em; }
+.back { font-family: var(--f-ui); background: none; border: 0; color: var(--accent); padding: 0; font-weight: 600; font-size: .92rem; display: inline-flex; gap: 6px; align-items: center; margin-top: 18px; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 18px; }
+.chip { font-family: var(--f-ui); font-size: .86rem; line-height: 1.4; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.field-input { width: 100%; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); font-family: var(--f-ui); line-height: 1.5; }
+
+/* quran list + reader */
+.surah {
+  display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; text-align: start; color: inherit;
+}
+.surah:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+.surah-no {
+  width: 40px; height: 40px; display: grid; place-items: center; font-family: var(--f-ui); font-size: .78rem; font-weight: 700; color: var(--accent);
+  background: var(--accent-soft); clip-path: polygon(50% 0, 62% 14%, 82% 14%, 86% 34%, 100% 50%, 86% 66%, 82% 86%, 62% 86%, 50% 100%, 38% 86%, 18% 86%, 14% 66%, 0 50%, 14% 34%, 18% 14%, 38% 14%);
+}
+.surah-name { display: block; font-weight: 600; line-height: 1.8; }
+.surah-meaning { display: block; color: var(--muted); font-size: .82rem; font-family: var(--f-ui); line-height: 1.5; }
+.surah-ar { font-family: var(--f-ar); font-size: 1.5rem; line-height: 1.6; color: var(--accent); }
+.note { background: var(--surface-2); border-radius: 12px; padding: 12px 16px; font-size: .92rem; color: var(--muted); line-height: 2; }
+
+.reader-bar {
+  position: sticky; top: calc(env(safe-area-inset-top, 0px) + 96px); z-index: 10;
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center; background: var(--surface); border: 1px solid var(--line);
+  border-radius: 14px; padding: 8px 10px; margin-block: 14px;
+}
+.reader-bar .sp { flex: 1; }
+.reader-bar button.t { font-family: var(--f-ui); font-size: .84rem; padding: 6px 12px; border-radius: 10px; border: 1px solid var(--line); background: transparent; line-height: 1.4; }
+.reader-bar button.t[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); font-weight: 600; }
+.surah-title { text-align: center; padding-block: 18px 6px; }
+.surah-title .ar { text-align: center; font-size: 3rem; color: var(--accent); line-height: 1.8; }
+.surah-title .bism { font-family: var(--f-ar); font-size: 1.9rem; margin-top: 8px; text-align: center; }
+.intro { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; color: var(--muted); }
+.ayah { padding: 18px 4px 20px; border-bottom: 1px solid var(--line); }
+.ayah:last-child { border-bottom: 0; }
+.ayah.focus { background: var(--accent-soft); border-radius: 12px; padding-inline: 14px; }
+.ayah-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; }
+.ayah-no { font-family: var(--f-ui); font-size: .76rem; font-weight: 700; color: var(--accent); background: var(--accent-soft); padding: 3px 12px; border-radius: 999px; line-height: 1.6; }
+.bm { background: none; border: 0; color: var(--muted); padding: 6px; border-radius: 8px; display: grid; place-items: center; }
+.bm[aria-pressed="true"] { color: var(--rose); }
+.bm[aria-pressed="true"] svg { fill: currentColor; }
+.ayah .ur { margin-top: 6px; }
+.tafsir { margin-top: 8px; background: var(--surface); border: 1px solid var(--line); border-inline-start: 3px solid var(--rose); border-radius: 10px; padding: 8px 14px 10px; }
+.tafsir-l { font-family: var(--f-ui); font-size: .76rem; color: var(--rose); font-weight: 700; }
+.tafsir p { color: var(--muted); font-size: .98rem; line-height: 2.1; }
+.pager { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-top: 22px; }
+
+/* reading pages */
+.read { max-width: 40rem; margin-inline: auto; padding-block: 12px 10px; }
+.read h1 { font-size: 2rem; margin-top: 12px; }
+.read .meta { font-family: var(--f-ui); color: var(--muted); font-size: .88rem; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; line-height: 1.6; margin-block: 6px 14px; }
+.read .tagline { display: inline-block; background: var(--rose-soft); color: var(--rose); padding: 2px 12px; border-radius: 999px; }
+.read p { margin-bottom: 14px; font-size: 1.08rem; line-height: 2.35; }
+.lessons { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 22px 12px; margin-top: 18px; }
+.lessons h3 { font-size: 1.1rem; color: var(--accent); }
+.lessons ul { margin: 6px 0 0; padding-inline-start: 20px; }
+.lessons li { margin-bottom: 4px; line-height: 2.1; }
+.list-row {
+  display: grid; grid-template-columns: 1fr auto; gap: 8px 14px; align-items: center; width: 100%; text-align: start; color: inherit;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; margin-bottom: 10px;
+}
+.list-row:hover { border-color: var(--accent); }
+.list-row .meta { color: var(--muted); font-size: .84rem; font-family: var(--f-ui); line-height: 1.6; }
+.cat-tag { font-family: var(--f-ui); font-size: .78rem; background: var(--accent-soft); color: var(--accent); padding: 2px 12px; border-radius: 999px; line-height: 1.7; white-space: nowrap; }
+
+.media { margin-block: 14px; background: #000; border-radius: 14px; overflow: hidden; }
+.media video { width: 100%; max-height: 70vh; display: block; background: #000; }
+.empty { text-align: center; padding: 40px 20px; color: var(--muted); background: var(--surface); border: 1px dashed var(--line); border-radius: 18px; }
+.empty svg { color: var(--hero-line); margin-bottom: 6px; }
+.empty p { max-width: 28em; margin-inline: auto; margin-bottom: 14px; }
+
+/* quiz */
+.progress { height: 8px; background: var(--surface-2); border-radius: 999px; overflow: hidden; margin-block: 12px; }
+.progress > i { display: block; height: 100%; background: var(--accent); }
+.q-card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
+.q-card h2 { font-size: 1.3rem; }
+.opts { display: grid; gap: 10px; margin-top: 12px; }
+.opt {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px; text-align: start; width: 100%;
+  background: var(--bg); border: 1.5px solid var(--line); border-radius: 12px; padding: 8px 16px; line-height: 2;
+}
+.opt:hover:not([disabled]) { border-color: var(--accent); }
+.opt.right { background: var(--accent-soft); border-color: var(--accent); }
+.opt.wrong { background: var(--rose-soft); border-color: var(--rose); }
+.opt .verdict { font-family: var(--f-ui); font-size: .78rem; font-weight: 700; white-space: nowrap; }
+.opt.right .verdict { color: var(--accent); }
+.opt.wrong .verdict { color: var(--rose); }
+.why { margin-top: 14px; background: var(--surface-2); border-radius: 12px; padding: 10px 16px; color: var(--muted); }
+.score { text-align: center; padding: 30px 20px; }
+.score .big { font-family: var(--f-ui); font-size: 3.4rem; font-weight: 700; color: var(--accent); line-height: 1.3; font-variant-numeric: tabular-nums; }
+
+/* search */
+.overlay { position: fixed; inset: 0; z-index: 60; background: rgba(12, 11, 24, .6); display: flex; justify-content: center; align-items: flex-start; padding: calc(env(safe-area-inset-top, 0px) + 16px) 16px 16px; }
+.overlay-box { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; width: min(640px, 100%); max-height: calc(100vh - 40px); display: flex; flex-direction: column; box-shadow: var(--shadow); }
+.overlay-top { display: flex; gap: 8px; padding: 12px; border-bottom: 1px solid var(--line); }
+.overlay-res { overflow-y: auto; padding: 8px; }
+.res { display: grid; gap: 2px; width: 100%; text-align: start; background: none; border: 0; border-radius: 12px; padding: 8px 12px; color: inherit; }
+.res:hover, .res:focus-visible { background: var(--surface-2); }
+.res .t { font-weight: 600; line-height: 1.9; }
+.res .s { font-size: .86rem; color: var(--muted); line-height: 1.9; }
+
+/* admin */
+.admin-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; margin-top: 14px; }
+.admin-bar.dirty { border-color: var(--rose); background: var(--rose-soft); }
+.admin-bar .st { font-family: var(--f-ui); font-size: .9rem; font-weight: 600; line-height: 1.6; }
+.form { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px; display: grid; gap: 14px; margin-top: 14px; }
+.fld { display: grid; gap: 6px; min-width: 0; }
+.fld label { font-family: var(--f-ui); font-size: .86rem; font-weight: 600; color: var(--muted); line-height: 1.5; }
+.fld input[type="text"], .fld select, .fld textarea { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); line-height: 1.8; }
+.fld textarea { min-height: 130px; resize: vertical; }
+.fld .hint { font-family: var(--f-ui); font-size: .78rem; color: var(--muted); line-height: 1.6; white-space: pre-line; }
+.fld.chk { display: flex; align-items: center; gap: 10px; }
+.fld.chk input { width: 20px; height: 20px; accent-color: var(--accent); }
+.row-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.rowline { display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 10px 16px; margin-bottom: 10px; }
+.rowline .main { min-width: 0; flex: 1 1 200px; }
+.rowline .main b { display: block; font-weight: 600; line-height: 1.9; overflow-wrap: anywhere; }
+.rowline .main span { font-family: var(--f-ui); font-size: .8rem; color: var(--muted); line-height: 1.5; }
+.err { color: var(--rose); font-family: var(--f-ui); font-size: .88rem; line-height: 1.7; }
+details.help { background: var(--surface-2); border-radius: 12px; padding: 8px 16px; margin-top: 12px; font-family: var(--f-ui); font-size: .9rem; line-height: 1.9; }
+details.help summary { cursor: pointer; font-weight: 600; }
+details.help pre { white-space: pre-wrap; direction: rtl; font-family: var(--f-ui); background: var(--bg); padding: 10px; border-radius: 8px; margin: 6px 0; }
+
+.toast { position: fixed; z-index: 70; inset-inline: 16px; bottom: calc(env(safe-area-inset-bottom, 0px) + 18px); margin-inline: auto; width: fit-content; max-width: calc(100% - 32px); background: var(--ink); color: var(--bg); font-family: var(--f-ui); font-size: .92rem; line-height: 1.7; padding: 10px 18px; border-radius: 12px; box-shadow: var(--shadow); }
+
+@media (max-width: 720px) {
+  body { font-size: 16px; }
+  .hero-in { grid-template-columns: 1fr; padding-block: 30px 46px; gap: 14px; }
+  .hero-emblem { width: 150px; order: -1; justify-self: start; }
+  .brand-en { display: none; }
+  .reader-bar { top: calc(env(safe-area-inset-top, 0px) + 92px); }
+  .surah-title .ar { font-size: 2.4rem; }
+  .read h1 { font-size: 1.65rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
+
+/* v2 additions */
+.section.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px; padding-block: 26px 0; }
+.streak-top { display: flex; gap: 12px; align-items: center; }
+.streak-top .ico { margin: 0; flex: none; background: var(--rose-soft); color: var(--rose); }
+.sdots { display: flex; gap: 8px; margin-top: 8px; }
+.sdot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--line); background: transparent; }
+.sdot.on { background: var(--accent); border-color: var(--accent); }
+.ayah-tools { display: flex; gap: 2px; align-items: center; }
+.fnref { font-family: var(--f-ui); font-size: .7em; color: var(--accent); margin-inline: 2px; line-height: 1; }
+details.fn { margin-top: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 4px 14px; }
+details.fn summary { cursor: pointer; font-family: var(--f-ui); font-size: .8rem; font-weight: 700; color: var(--accent); line-height: 2; }
+.fn-body { white-space: pre-line; color: var(--muted); font-size: .96rem; line-height: 2.2; padding-bottom: 8px; }
+.mynote { margin-top: 8px; background: var(--accent-soft); border-radius: 10px; padding: 8px 14px 10px; }
+.mynote .tafsir-l { color: var(--accent); }
+.mynote p { white-space: pre-line; line-height: 2; }
+.note-ta { width: 100%; border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 8px 12px; line-height: 2; resize: vertical; min-height: 80px; }
+.jumpbox { display: inline-flex; gap: 6px; align-items: center; }
+.jump { width: 72px; padding: 5px 8px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); font-family: var(--f-ui); line-height: 1.4; }
+.steps { margin: 0; padding-inline-start: 22px; line-height: 2.2; }
+.credits { margin-top: 6px; font-size: .82rem; line-height: 1.9; }
+.credits a { color: var(--accent); }
+
+.tc { display: grid; justify-items: center; gap: 14px; padding-block: 10px 18px; }
+.tc-dhikr { text-align: center; font-size: clamp(30px, 8vw, 44px); line-height: 1.9; }
+.tc-ring { --p: 0%; width: min(78vw, 280px); aspect-ratio: 1; border-radius: 50%; padding: 12px; display: grid; background: conic-gradient(var(--accent) var(--p), var(--surface-2) 0); }
+.tc-btn { border: 0; border-radius: 50%; background: var(--surface); color: var(--ink); display: grid; place-items: center; box-shadow: var(--shadow); width: 100%; height: 100%; }
+.tc-btn:active { transform: scale(.98); }
+.tc-count { font-family: var(--f-ui); font-size: clamp(3rem, 14vw, 4.5rem); font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; line-height: 1.2; }
+.tc-info { color: var(--muted); font-size: .9rem; }
+@media (prefers-reduced-motion: no-preference) { .tc-btn { transition: transform .08s; } }
+@media (max-width: 720px) { .reader-bar { position: static; } }
+.lockbox { max-width: 420px; margin: 24px auto; }
+.lock-ico { width: 56px; height: 56px; border-radius: 16px; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; margin-inline: auto; }
+.fld input[type="password"] { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); font-family: var(--f-ui); line-height: 1.8; }
+
+/* recitation audio */
+.surah-wrap { position: relative; }
+.surah-wrap .surah { width: 100%; padding-inline-end: 58px; }
+.listen-b { position: absolute; inset-inline-end: 10px; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; }
+.listen-b:hover { border-color: var(--accent); }
+.listen-row { display: flex; justify-content: center; margin: 4px 0 14px; }
+.btn.listen-main { display: inline-flex; align-items: center; gap: 8px; font-family: var(--f-ui); }
+.aubar { position: fixed; inset-inline: 0; bottom: 0; z-index: 60; background: var(--surface, var(--bg)); border-top: 1px solid var(--line); box-shadow: 0 -6px 24px rgba(0,0,0,.12); padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px)); font-family: var(--f-ui); }
+.au-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.au-info { display: flex; flex-direction: column; min-width: 0; }
+.au-info strong { font-size: .98rem; }
+.au-info span { font-size: .8rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.au-x { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: transparent; display: grid; place-items: center; color: inherit; flex: none; }
+.au-ctl { display: flex; align-items: center; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+.au-b { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: transparent; font-size: 1rem; color: inherit; }
+.au-b.main { background: var(--accent); color: #fff; border-color: var(--accent); }
+.au-b:disabled { opacity: .35; }
+.au-ctl input[type=range] { flex: 1 1 120px; min-width: 90px; direction: ltr; accent-color: var(--accent); }
+.aut { font-size: .78rem; color: var(--muted); direction: ltr; }
+.au-q { font-size: .8rem; padding: 6px 12px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: inherit; }
+body.has-aubar { padding-bottom: 130px; }
+.ausheet-bg { position: fixed; inset: 0; z-index: 90; background: rgba(0,0,0,.45); display: flex; align-items: flex-end; justify-content: center; }
+.ausheet { width: min(520px, 100%); max-height: 88vh; overflow: auto; background: var(--surface, var(--bg)); color: inherit; border-radius: 20px 20px 0 0; padding: 16px 16px calc(16px + env(safe-area-inset-bottom, 0px)); font-family: var(--f-ui); }
+@media (min-width: 640px) { .ausheet-bg { align-items: center; } .ausheet { border-radius: 20px; } }
+.ash-h { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 10px; }
+.ash-h div { display: flex; flex-direction: column; }
+.ash-h span { font-size: .84rem; color: var(--muted); }
+.ash-l { display: grid; gap: 8px; }
+.ash-i { display: flex; align-items: center; gap: 12px; text-align: start; padding: 12px; border-radius: 14px; border: 1px solid var(--line); background: transparent; color: inherit; width: 100%; }
+.ash-i.on, .ash-i:hover { border-color: var(--accent); background: var(--accent-soft); }
+.ash-p { width: 36px; height: 36px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-size: .85rem; flex: none; }
+.ash-t { display: flex; flex-direction: column; }
+.ash-t strong { font-family: var(--f-ar); font-size: 1.15rem; font-weight: 600; }
+.ash-t em { font-style: normal; font-size: .8rem; color: var(--muted); }
+.ash-n { font-size: .78rem; color: var(--muted); margin: 12px 2px 0; }
+</style></head><body>
+<div id="app"></div>
+<script type="application/json" id="hy-data">{"site":{"tagline":"ہر بہن اور ہر بیٹی کے لیے دین سیکھنے کا آسان، مستند اور خوبصورت ٹھکانہ","about":"حق الیقین انسٹیٹیوٹ ایک تعلیمی پلیٹ فارم ہے جہاں خواتین اور بچیاں ہر عمر میں قرآن، سیرتِ انبیاء اور دینی علم آسان اردو میں سیکھ سکتی ہیں۔ ہمارا مقصد یہ ہے کہ دین کی بات سادہ زبان میں، ترتیب کے ساتھ اور محبت سے پہنچائی جائے۔","contact":""},"lectures":[],"stories":[{"id":"p-adam","title":"حضرت آدم علیہ السلام","sub":"پہلے انسان اور پہلے نبی","ref":"البقرہ 30–39، الاعراف 11–25","body":"اللہ تعالیٰ نے فرشتوں سے فرمایا کہ میں زمین میں ایک خلیفہ بنانے والا ہوں۔ پھر اللہ نے آدمؑ کو مٹی سے پیدا کیا، ان میں روح پھونکی اور انہیں چیزوں کے نام سکھائے۔ جب فرشتوں سے پوچھا گیا تو انہوں نے اپنی لاعلمی کا اعتراف کیا، اور آدمؑ نے وہ نام بتا دیے۔ یوں علم کی فضیلت ظاہر ہوئی۔\n\nاللہ کے حکم سے فرشتوں نے آدمؑ کے سامنے سجدہ کیا، مگر ابلیس نے تکبر کی وجہ سے انکار کیا۔ آدمؑ اور ان کی بیوی حضرت حواؑ کو جنت میں رہنے کی جگہ دی گئی اور ایک درخت کے قریب جانے سے منع کیا گیا۔ شیطان نے وسوسہ ڈالا اور دونوں سے لغزش ہو گئی۔\n\nآدمؑ اور حواؑ نے فوراً کہا: \"اے ہمارے رب! ہم نے اپنی جانوں پر ظلم کیا، اگر تو نے ہمیں معاف نہ کیا اور ہم پر رحم نہ کیا تو ہم نقصان اٹھانے والوں میں ہوں گے۔\" اللہ نے ان کی توبہ قبول فرمائی۔","lessons":["علم انسان کی سب سے بڑی فضیلت ہے۔","تکبر سب سے پہلا گناہ تھا، اور عاجزی سے توبہ سب سے پہلی نیکی۔","غلطی ہو جائے تو شیطان کی طرح اڑ جانے کے بجائے آدمؑ کی طرح فوراً توبہ کرنی چاہیے۔"]},{"id":"p-nuh","title":"حضرت نوح علیہ السلام","sub":"صبر کے پیکر","ref":"ہود 25–48، نوح","body":"حضرت نوحؑ اپنی قوم کو ساڑھے نو سو سال تک اللہ کی طرف بلاتے رہے۔ قوم بتوں کی پوجا کرتی تھی۔ آپؑ نے دن رات، چھپ کر اور کھل کر سمجھایا، مگر تھوڑے سے لوگوں کے سوا کوئی ایمان نہ لایا۔\n\nپھر اللہ نے حکم دیا کہ ایک کشتی بناؤ۔ قوم اس پر ہنستی اور مذاق اڑاتی تھی۔ جب اللہ کا حکم آیا تو زمین سے پانی ابل پڑا اور آسمان سے موسلا دھار بارش ہوئی۔ نوحؑ اپنے ایمان والے ساتھیوں کے ساتھ کشتی میں سوار ہوئے اور اللہ کے حکم سے ہر جانور کا ایک ایک جوڑا بھی ساتھ لیا گیا۔\n\nنوحؑ کا ایک بیٹا ایمان نہ لایا اور وہ بھی طوفان میں ڈوب گیا۔ اللہ نے سمجھایا کہ نجات کا تعلق نسب سے نہیں، ایمان اور نیک عمل سے ہے۔ آخر کشتی جودی پہاڑ پر ٹھہری۔","lessons":["دعوت کے راستے میں صبر اور استقامت چاہیے، چاہے نتیجہ دیر سے ملے۔","اللہ کے حکم پر عمل کرنا چاہیے چاہے لوگ مذاق اڑائیں۔","رشتہ دار ہونا نجات کی ضمانت نہیں، ایمان ضروری ہے۔"]},{"id":"p-ibrahim","title":"حضرت ابراہیم علیہ السلام","sub":"خلیل اللہ","ref":"الانبیاء 51–73، الصافات 83–113","body":"حضرت ابراہیمؑ نے بچپن سے سوچ سمجھ کر توحید کو پہچانا۔ انہوں نے اپنی قوم سے پوچھا کہ یہ مورتیاں کیا ہیں جن کے آگے تم جھکتے ہو؟ ایک دن موقع پا کر انہوں نے بتوں کو توڑ دیا اور بڑے بت کے گلے میں کلہاڑی لٹکا دی تاکہ قوم خود سوچے کہ جو بت اپنی حفاظت نہیں کر سکتے وہ کسی کی مدد کیا کریں گے۔\n\nقوم نے آپؑ کو آگ میں ڈالنے کا فیصلہ کیا۔ اللہ نے حکم دیا: \"اے آگ! ابراہیم پر ٹھنڈی اور سلامتی والی بن جا۔\" آگ نے آپؑ کو کوئی نقصان نہ پہنچایا۔\n\nبعد میں اللہ نے آپؑ کو بڑھاپے میں بیٹے حضرت اسماعیلؑ عطا فرمائے۔ پھر خواب میں انہیں قربان کرنے کا حکم ملا۔ باپ اور بیٹا دونوں اللہ کے حکم پر راضی ہو گئے، تو اللہ نے ایک بڑی قربانی کا فدیہ عطا فرما دیا۔ باپ بیٹے نے مل کر کعبہ کی بنیادیں بھی اٹھائیں۔","lessons":["حق کی بات کے لیے عقل اور دلیل کے ساتھ ڈٹ جانا چاہیے۔","اللہ پر بھروسا کرنے والے کو وہ ایسی جگہ سے بچاتا ہے جہاں سے خیال بھی نہ ہو۔","اللہ کی رضا کے لیے سب سے عزیز چیز بھی قربان کرنے کو تیار رہنا چاہیے۔"]},{"id":"p-yusuf","title":"حضرت یوسف علیہ السلام","sub":"قرآن کا سب سے خوبصورت قصہ","ref":"سورۃ یوسف","body":"حضرت یوسفؑ نے بچپن میں خواب دیکھا کہ گیارہ ستارے اور سورج اور چاند انہیں سجدہ کر رہے ہیں۔ والد حضرت یعقوبؑ نے کہا کہ یہ خواب اپنے بھائیوں کو نہ بتانا۔ مگر بھائی حسد میں مبتلا ہو گئے، اور انہوں نے یوسفؑ کو کنویں میں ڈال دیا۔\n\nایک قافلے نے انہیں نکالا اور مصر میں بیچ دیا۔ وہاں عزیزِ مصر کے گھر میں پرورش پائی۔ ایک موقع پر آپؑ کو گناہ کی طرف بلایا گیا، مگر آپؑ نے اللہ کے خوف سے صاف انکار کیا۔ اس کے باوجود آپؑ کو برسوں قید میں رہنا پڑا۔\n\nقید میں آپؑ نے خوابوں کی تعبیر بتائی، اور بعد میں بادشاہ کے خواب کی تعبیر سے مصر کو قحط سے بچانے کا منصوبہ دیا۔ آپؑ کو خزانوں کا ذمہ دار بنایا گیا۔ جب بھائی غلہ لینے آئے تو آپؑ نے انہیں پہچان لیا، اور آخر میں سب کو معاف کر دیا۔ والدین اور بھائی مصر آئے تو بچپن کے خواب کی تعبیر پوری ہو گئی۔","lessons":["حسد انسان کو ظلم تک لے جاتا ہے۔","پاکدامنی اور اللہ کا خوف سب سے بڑی حفاظت ہے۔","معاف کرنا طاقت اور بڑائی ہے۔","اللہ کی تدبیر دیر سے سہی، مگر ہمیشہ بہترین ہوتی ہے۔"]},{"id":"p-ayyub","title":"حضرت ایوب علیہ السلام","sub":"صبرِ جمیل کی مثال","ref":"الانبیاء 83–84، ص 41–44","body":"حضرت ایوبؑ اللہ کے نیک نبی تھے۔ انہیں مال، اولاد اور صحت جیسی نعمتیں حاصل تھیں۔ پھر اللہ نے انہیں آزمایا، اور وہ ایک طویل اور سخت بیماری میں مبتلا ہو گئے۔\n\nان کی بیوی نے ان کی بہت خدمت کی اور ہر حال میں ساتھ دیا۔ ایوبؑ نے کبھی شکوہ نہیں کیا۔ آخر انہوں نے نہایت ادب سے اللہ کو پکارا: \"مجھے تکلیف پہنچی ہے اور تو سب رحم کرنے والوں سے بڑھ کر رحم کرنے والا ہے۔\"\n\nاللہ نے دعا قبول کی، انہیں شفا دی اور اپنی رحمت سے انہیں پہلے سے زیادہ عطا فرمایا۔ قرآن نے انہیں \"بہترین بندہ\" کہا۔","lessons":["آزمائش میں شکوے کے بجائے اللہ سے دعا کرنی چاہیے۔","صبر کرنے والوں کے ساتھ اللہ کی خاص رحمت ہوتی ہے۔","مشکل وقت میں ساتھ دینے والا گھر والا بہت بڑی نعمت ہے۔"]},{"id":"p-yunus","title":"حضرت یونس علیہ السلام","sub":"مچھلی کے پیٹ میں دعا","ref":"الانبیاء 87–88، الصافات 139–148","body":"حضرت یونسؑ کو اللہ نے نینویٰ کی قوم کی طرف بھیجا۔ قوم نے ماننے سے انکار کیا تو آپؑ ناراض ہو کر اللہ کے حکم کا انتظار کیے بغیر وہاں سے چلے گئے۔\n\nآپؑ کشتی میں سوار ہوئے۔ طوفان آیا اور قرعہ آپؑ کے نام نکلا۔ آپؑ سمندر میں گرے تو ایک بڑی مچھلی نے انہیں نگل لیا۔ اندھیروں میں آپؑ نے دعا کی: \"تیرے سوا کوئی معبود نہیں، تو پاک ہے، بے شک میں ہی ظالموں میں سے تھا۔\"\n\nاللہ نے دعا قبول کی، مچھلی نے انہیں کنارے پر ڈال دیا۔ ادھر قوم نے ایمان قبول کر لیا اور اللہ نے ان سے عذاب ٹال دیا۔","lessons":["غلطی کا احساس ہو جائے تو سچے دل سے اللہ کی طرف لوٹ آنا چاہیے۔","اندھیروں میں بھی اللہ کو پکارنے والے کی دعا سنی جاتی ہے۔","یہ دعا ہر پریشانی میں پڑھی جا سکتی ہے۔"]},{"id":"p-musa","title":"حضرت موسیٰ علیہ السلام","sub":"فرعون کے مقابلے میں حق کی آواز","ref":"القصص 1–43، طٰہٰ 9–98","body":"جب فرعون نے بنی اسرائیل کے بچوں کو قتل کرنے کا حکم دیا تو اللہ نے موسیٰؑ کی والدہ کے دل میں ڈالا کہ بچے کو صندوق میں رکھ کر دریا میں ڈال دو، ہم اسے تمہارے پاس لوٹا دیں گے۔ وہی بچہ فرعون کے محل میں پلا۔ بعد میں اللہ نے والدہ کے پاس دودھ پلانے کے لیے انہیں لوٹا دیا۔\n\nجوان ہو کر موسیٰؑ مدین گئے، وہاں کئی سال رہے اور پھر واپسی پر وادیٔ طویٰ میں اللہ نے انہیں نبوت عطا کی۔ انہیں فرعون کے پاس جا کر نرمی سے بات کرنے کا حکم ہوا۔ فرعون نے تکبر کیا، لیکن اللہ نے موسیٰؑ کو معجزات عطا کیے۔\n\nآخر موسیٰؑ بنی اسرائیل کو لے کر نکلے۔ آگے سمندر اور پیچھے فرعون کا لشکر تھا۔ اللہ کے حکم سے سمندر پھٹ گیا، بنی اسرائیل پار ہو گئے اور فرعون اپنے لشکر سمیت غرق ہو گیا۔","lessons":["اللہ اپنے بندوں کی حفاظت ایسی جگہ سے کرتا ہے جہاں سے وہم و گمان بھی نہ ہو۔","ظالم کتنا ہی طاقتور ہو، انجام اللہ کے ہاتھ میں ہے۔","بات کرنے میں نرمی اختیار کرنی چاہیے، فرعون سے بھی نرمی کا حکم تھا۔"]}],"articles":[{"id":"a-maqam","title":"اسلام میں عورت کا مقام","cat":"خواتین","author":"حق الیقین انسٹیٹیوٹ","date":"","body":"اسلام نے عورت کو وہ عزت اور حقوق دیے جو اس سے پہلے کسی نظام نے نہیں دیے تھے۔ قرآن میں مرد اور عورت دونوں کو ایمان اور نیک عمل کی بنیاد پر برابر اجر کا وعدہ دیا گیا ہے۔ سورۃ الاحزاب کی آیت 35 میں مسلمان مرد و عورت، ایمان والے مرد و عورت، فرمانبردار، سچے، صبر کرنے والے، خشوع کرنے والے، صدقہ دینے والے، روزہ رکھنے والے اور اللہ کو کثرت سے یاد کرنے والوں سب کے لیے مغفرت اور بڑے اجر کا وعدہ ہے۔\n\nعورت بیٹی کی صورت میں رحمت، بیوی کی صورت میں سکون اور ماں کی صورت میں سب سے زیادہ حسنِ سلوک کی حق دار ہے۔ نبی ﷺ نے فرمایا کہ علم حاصل کرنا ہر مسلمان پر فرض ہے (سنن ابن ماجہ)۔ اس حکم میں مرد اور عورت دونوں شامل ہیں۔\n\nتاریخ گواہ ہے کہ ام المومنین حضرت خدیجہؓ نے سب سے پہلے ایمان قبول کیا، اور حضرت عائشہؓ نے علمِ حدیث اور فقہ میں امت کی رہنمائی کی۔ آج بھی ہر بہن اپنے گھر، اپنے خاندان اور اپنے معاشرے میں علم اور کردار کے ذریعے یہی کردار ادا کر سکتی ہے۔"},{"id":"a-namaz","title":"نماز: دل کے سکون کی کنجی","cat":"عبادات","author":"حق الیقین انسٹیٹیوٹ","date":"","body":"نماز اسلام کا دوسرا رکن ہے اور بندے اور رب کے درمیان سب سے مضبوط رشتہ ہے۔ قرآن میں اللہ فرماتا ہے: \"بے شک نماز بے حیائی اور برائی سے روکتی ہے\" (العنکبوت 45)۔ اور فرمایا: \"اللہ کے ذکر سے ہی دل اطمینان پاتے ہیں\" (الرعد 28)۔\n\nنماز کو بہتر بنانے کے لیے چند آسان باتیں مدد دیتی ہیں: وقت پر پڑھنے کی کوشش، وضو کو توجہ سے کرنا، اور نماز میں جو کچھ پڑھ رہے ہیں اس کا مطلب جاننا۔ جب بندہ سورۃ الفاتحہ کے معنی سمجھ کر پڑھتا ہے تو ہر رکعت میں اللہ سے دعا اور ہدایت مانگتا ہے۔\n\nشروع میں خشوع مشکل لگ سکتا ہے۔ اس کا آسان طریقہ یہ ہے کہ ایک وقت میں ایک چھوٹی سورت کا ترجمہ یاد کر لیں۔ آہستہ آہستہ نماز عادت سے بڑھ کر لذت بن جاتی ہے۔"},{"id":"a-haya","title":"حیا اور ایمان","cat":"اخلاق","author":"حق الیقین انسٹیٹیوٹ","date":"","body":"نبی ﷺ نے فرمایا: \"حیا ایمان کا ایک حصہ ہے\" (صحیح بخاری و مسلم)۔ حیا صرف لباس کا نام نہیں، یہ نظر، زبان، رویے اور سوچ سب میں ظاہر ہوتی ہے۔\n\nحیا انسان کو ایسی باتوں سے روکتی ہے جو اللہ کو ناپسند ہیں، اور ساتھ ہی اچھے اخلاق کی طرف بلاتی ہے۔ حیا دار انسان نرم بات کرتا ہے، دوسروں کی عزت کا خیال رکھتا ہے اور تنہائی میں بھی اللہ کو حاضر سمجھتا ہے۔\n\nبچیوں کو حیا سکھانے کا بہترین طریقہ یہ ہے کہ ہم خود اس پر عمل کریں، اور انہیں سمجھائیں کہ حیا کمزوری نہیں بلکہ وقار ہے۔"},{"id":"a-sabr","title":"صبر: مومن کی طاقت","cat":"اخلاق","author":"حق الیقین انسٹیٹیوٹ","date":"","body":"نبی ﷺ نے فرمایا: \"مومن کا معاملہ عجیب ہے، اس کا ہر معاملہ اس کے لیے خیر ہے۔ اگر اسے خوشی پہنچے اور وہ شکر کرے تو یہ اس کے لیے خیر ہے، اور اگر اسے تکلیف پہنچے اور وہ صبر کرے تو یہ بھی اس کے لیے خیر ہے\" (صحیح مسلم)۔\n\nصبر کا مطلب رونا یا دل کا درد چھپانا نہیں، بلکہ اللہ کے فیصلے پر راضی رہتے ہوئے ثابت قدم رہنا اور اپنی زبان اور عمل کو قابو میں رکھنا ہے۔ قرآن میں فرمایا گیا: \"بے شک اللہ صبر کرنے والوں کے ساتھ ہے\" (البقرہ 153)۔\n\nحضرت ایوبؑ اور حضرت یعقوبؑ کے قصے ہمیں سکھاتے ہیں کہ صبر کے ساتھ دعا بھی ضروری ہے۔ شکوہ اللہ سے نہیں، اللہ کے سامنے کیا جاتا ہے۔"},{"id":"a-walidain","title":"والدین کا مقام","cat":"گھر اور خاندان","author":"حق الیقین انسٹیٹیوٹ","date":"","body":"قرآن میں اللہ نے اپنی عبادت کے حکم کے ساتھ ہی والدین سے اچھے سلوک کا حکم دیا ہے (بنی اسرائیل 23)۔ بڑھاپے میں انہیں \"اف\" تک کہنے سے بھی منع کیا گیا۔\n\nایک شخص نے نبی ﷺ سے پوچھا کہ میرے حسنِ سلوک کا سب سے زیادہ حق دار کون ہے؟ آپ ﷺ نے فرمایا: تمہاری ماں۔ اس نے پوچھا: پھر؟ فرمایا: تمہاری ماں۔ پھر پوچھا: پھر؟ فرمایا: تمہاری ماں۔ چوتھی مرتبہ فرمایا: تمہارا باپ (صحیح بخاری و مسلم)۔\n\nوالدین کی خدمت، ان کی دعا لینا اور ان کے لیے دعا کرنا بہت بڑی نیکی ہے۔ ان کے لیے یہ دعا سکھائی گئی ہے: \"اے میرے رب! ان دونوں پر رحم فرما جیسے انہوں نے بچپن میں مجھے پالا۔\""},{"id":"a-quran-seekhna","title":"قرآن سیکھنے کی شروعات","cat":"قرآن","author":"حق الیقین انسٹیٹیوٹ","date":"","body":"نبی ﷺ نے فرمایا: \"تم میں سب سے بہتر وہ ہے جو قرآن سیکھے اور سکھائے\" (صحیح بخاری)۔ قرآن سیکھنے کی عمر یا وقت مقرر نہیں، بس شروعات کی ضرورت ہے۔\n\nآسان طریقہ یہ ہے: روزانہ ایک مقررہ وقت رکھیں، چاہے صرف دس منٹ ہو۔ پہلے قرآن کو درست پڑھنا سیکھیں، پھر چھوٹی سورتوں کا ترجمہ یاد کریں، اور آخر میں تفسیر سے ان کا پس منظر سمجھیں۔\n\nہماری ویب سائٹ پر آپ ہر آیت کے ساتھ اردو ترجمہ اور مختصر تفسیر پڑھ سکتی ہیں۔ تلاوت کی درستی کے لیے کسی مستند قاریہ یا معلمہ سے ضرور رابطہ رکھیں۔"}],"quizzes":[{"id":"q-arkan","title":"ارکانِ اسلام","desc":"اسلام کی بنیادی باتوں کا آسان امتحان","qs":[{"q":"اسلام کے کتنے ارکان ہیں؟","opts":["تین","چار","پانچ","چھ"],"a":2,"why":"حدیثِ جبریل اور دیگر احادیث کے مطابق اسلام کی بنیاد پانچ چیزوں پر ہے: شہادتین، نماز، زکوٰۃ، روزہ اور حج۔"},{"q":"اسلام کا پہلا رکن کیا ہے؟","opts":["نماز","کلمۂ شہادت","زکوٰۃ","حج"],"a":1,"why":"اللہ کی وحدانیت اور محمد ﷺ کی رسالت کی گواہی اسلام کا پہلا رکن ہے۔"},{"q":"روزے کس مہینے میں فرض ہیں؟","opts":["محرم","شعبان","رمضان","ذوالحجہ"],"a":2,"why":"رمضان کے روزے ہر عاقل بالغ مسلمان پر فرض ہیں۔"},{"q":"عام طور پر قابلِ زکوٰۃ مال پر زکوٰۃ کی شرح کتنی ہے؟","opts":["ڈھائی فیصد","پانچ فیصد","دس فیصد","بیس فیصد"],"a":0,"why":"سونا، چاندی اور نقدی جیسے مال پر شرط پوری ہونے کی صورت میں ڈھائی فیصد (چالیسواں حصہ) زکوٰۃ فرض ہے۔"},{"q":"حج کن مہینوں میں ادا کیا جاتا ہے؟","opts":["رجب میں","ذوالحجہ کے ایام میں","ربیع الاول میں","صفر میں"],"a":1,"why":"حج کے مناسک ذوالحجہ کی مخصوص تاریخوں میں ادا ہوتے ہیں۔"}]},{"id":"q-quran","title":"قرآن کا تعارف","desc":"قرآن پاک کے بارے میں بنیادی معلومات","qs":[{"q":"قرآن پاک میں کل کتنی سورتیں ہیں؟","opts":["110","114","120","30"],"a":1,"why":"قرآن مجید میں کل 114 سورتیں ہیں۔"},{"q":"قرآن پاک کے کتنے پارے ہیں؟","opts":["20","25","30","40"],"a":2,"why":"قرآن کو تلاوت کی آسانی کے لیے 30 پاروں میں تقسیم کیا گیا ہے۔"},{"q":"قرآن کی سب سے طویل سورت کون سی ہے؟","opts":["البقرہ","آل عمران","النساء","الاعراف"],"a":0,"why":"سورۃ البقرہ قرآن کی سب سے بڑی سورت ہے۔"},{"q":"وحی کی ابتدا کن آیات سے ہوئی؟","opts":["سورۃ الفاتحہ","سورۃ العلق کی ابتدائی آیات","سورۃ البقرہ","سورۃ الناس"],"a":1,"why":"غارِ حرا میں سب سے پہلے سورۃ العلق کی ابتدائی آیات \"اقرأ باسم ربک\" نازل ہوئیں۔"},{"q":"کون سی سورت \"بسم اللہ\" کے بغیر شروع ہوتی ہے؟","opts":["سورۃ التوبہ","سورۃ الکوثر","سورۃ یٰس","سورۃ الاخلاص"],"a":0,"why":"سورۃ التوبہ کے شروع میں بسم اللہ نہیں لکھی جاتی۔"}]},{"id":"q-anbiya","title":"انبیاء کرام کے قصے","desc":"قرآنی قصوں پر مبنی سوالات","qs":[{"q":"سب سے پہلے نبی کون تھے؟","opts":["حضرت نوحؑ","حضرت آدمؑ","حضرت ابراہیمؑ","حضرت موسیٰؑ"],"a":1,"why":"حضرت آدمؑ پہلے انسان اور پہلے نبی تھے۔"},{"q":"کشتی کس نبی نے بنائی؟","opts":["حضرت نوحؑ","حضرت یونسؑ","حضرت یوسفؑ","حضرت ایوبؑ"],"a":0,"why":"حضرت نوحؑ نے اللہ کے حکم سے کشتی بنائی۔"},{"q":"کس نبی کو آگ نے نقصان نہیں پہنچایا؟","opts":["حضرت ابراہیمؑ","حضرت موسیٰؑ","حضرت عیسیٰؑ","حضرت داؤدؑ"],"a":0,"why":"اللہ کے حکم سے آگ حضرت ابراہیمؑ پر ٹھنڈی اور سلامتی والی ہو گئی۔"},{"q":"کس نبی کو مچھلی نے نگل لیا تھا؟","opts":["حضرت یونسؑ","حضرت ایوبؑ","حضرت یعقوبؑ","حضرت ہارونؑ"],"a":0,"why":"حضرت یونسؑ نے مچھلی کے پیٹ میں دعا کی اور اللہ نے انہیں نجات دی۔"},{"q":"کس نبی کے صبر کی مثال بیماری کی آزمائش میں دی جاتی ہے؟","opts":["حضرت ایوبؑ","حضرت سلیمانؑ","حضرت یحییٰؑ","حضرت ہودؑ"],"a":0,"why":"حضرت ایوبؑ نے طویل بیماری پر صبر کیا اور پھر شفا پائی۔"}]}],"qintro":{"1":"قرآن کی پہلی سورت، جسے ہر نماز کی ہر رکعت میں پڑھا جاتا ہے۔ یہ دراصل بندے کی طرف سے اللہ سے ہدایت کی دعا ہے۔","103":"تین آیات کی یہ مختصر سورت کامیابی کا پورا نقشہ دیتی ہے۔ امام شافعیؒ سے منقول ہے کہ اگر لوگ صرف اس سورت پر غور کر لیتے تو یہی ان کے لیے کافی ہوتی۔","105":"اس سورت میں ابرہہ کے لشکر کا واقعہ بیان ہوا ہے جو ہاتھیوں کے ساتھ کعبہ کو گرانے آیا تھا۔ مشہور قول کے مطابق یہ واقعہ نبی ﷺ کی ولادت کے سال پیش آیا۔","106":"اس سورت میں قریش کو یاد دلایا گیا ہے کہ ان کے سفر، رزق اور امن اللہ کی نعمتیں ہیں، اس لیے انہیں اسی کی عبادت کرنی چاہیے۔","108":"قرآن کی سب سے چھوٹی سورت۔ کوثر کا مطلب بے شمار خیر ہے، اور روایات میں جنت کی ایک نہر کو بھی کوثر کہا گیا ہے۔","109":"اس سورت میں عقیدے کے معاملے میں دو ٹوک اعلان ہے، اور ساتھ ہی یہ سبق ہے کہ ہر شخص اپنے دین کا خود ذمہ دار ہے۔","110":"یہ سورت اللہ کی مدد اور فتح کی خوشخبری دیتی ہے، اور کامیابی کے وقت تسبیح اور استغفار کا حکم دیتی ہے۔ یہ آخری نازل ہونے والی سورتوں میں سے ہے۔","112":"توحید کا خلاصہ۔ صحیح بخاری و مسلم کی روایت میں اسے ایک تہائی قرآن کے برابر فرمایا گیا ہے۔","113":"یہ اور اگلی سورت معوذتین کہلاتی ہیں، یعنی پناہ مانگنے والی سورتیں۔ صحیح بخاری کی روایت ہے کہ نبی ﷺ سونے سے پہلے ان کو پڑھ کر ہاتھوں پر دم کرتے اور جسم پر پھیرتے تھے۔","114":"قرآن کی آخری سورت۔ اس میں وسوسہ ڈالنے والے کے شر سے اللہ کی پناہ مانگی گئی ہے۔","2:255":"صحیح مسلم کی روایت کے مطابق یہ قرآن کی سب سے عظیم آیت ہے۔ اس میں اللہ کی توحید، علم، قدرت اور عظمت بیان ہوئی ہے۔"},"qnotes":{"1:1":"ہر اچھے کام کی ابتدا اللہ کے نام سے کرنے کی تعلیم۔","1:2":"حقیقی تعریف کا مستحق وہی ہے جو ہر مخلوق کو پیدا کرتا اور پالتا ہے۔","1:3":"اللہ کی رحمت ہر چیز پر چھائی ہوئی ہے، اور آخرت میں خاص طور پر ایمان والوں کے لیے ہے۔","1:4":"قیامت کے دن حساب اور بدلے کا پورا اختیار صرف اللہ کے پاس ہے۔","1:5":"توحید کا خلاصہ: عبادت بھی اللہ کی، اور مدد بھی اسی سے۔","1:6":"سیدھے راستے پر قائم رہنے کی دعا، جو بندہ روزانہ بار بار مانگتا ہے۔","1:7":"انعام یافتہ لوگوں سے مراد انبیاء، صدیقین، شہداء اور صالحین ہیں۔ اس دعا میں حق جان کر چھوڑنے اور بھٹک جانے، دونوں سے پناہ مانگی گئی ہے۔","2:255":"اس آیت میں اللہ کی صفات ایک ساتھ بیان ہوئی ہیں: زندہ و قائم رہنا، کبھی نہ سونا، ہر چیز کا مالک ہونا، مکمل علم رکھنا اور بلند و عظیم ہونا۔ بندہ جب اسے سمجھ کر پڑھتا ہے تو دل کو اللہ پر بھروسے کا سکون ملتا ہے۔","103:1":"اللہ وقت کی قسم کھا کر اس کی اہمیت کی طرف توجہ دلاتا ہے۔","103:2":"جو وقت ضائع ہو جائے وہ واپس نہیں آتا، اس لیے عام انسان نقصان میں ہے۔","103:3":"کامیابی کے چار ستون: ایمان، نیک عمل، حق کی نصیحت اور صبر کی نصیحت۔","105:5":"اللہ اپنے گھر کی خود حفاظت فرماتا ہے، چاہے دشمن کتنا ہی طاقتور ہو۔","106:4":"رزق اور امن، دونوں بڑی نعمتیں ہیں اور دونوں پر شکر واجب ہے۔","108:2":"نعمت کے شکر میں نماز اور قربانی، یعنی بدنی اور مالی عبادت۔","109:6":"توحید پر کوئی سمجھوتہ نہیں، مگر دوسروں پر زبردستی بھی نہیں۔","110:3":"کامیابی پر غرور نہیں، شکر اور استغفار سکھایا گیا ہے۔","112:2":"صمد وہ ہے جو کسی کا محتاج نہ ہو اور سب اس کے محتاج ہوں۔","114:4":"جب بندہ اللہ کو یاد کرتا ہے تو وسوسہ ڈالنے والا پیچھے ہٹ جاتا ہے۔"},"sections":[],"custom":{},"auth":{"salt":"32e5148927ab2ae75c7a0774cca78b2c","hash":"9d941c39fc6e30a12179c5c1abb3dcf6d37729ec72eeb9533f1d22140c3388af","iter":210000},"qm":[[1,"الفاتحة","Al-Faatiha","مکی",7],[2,"البقرة","Al-Baqara","مدنی",286],[3,"آل عمران","Aal-i-Imraan","مدنی",200],[4,"النساء","An-Nisaa","مدنی",176],[5,"المائدة","Al-Maaida","مدنی",120],[6,"الأنعام","Al-An'aam","مکی",165],[7,"الأعراف","Al-A'raaf","مکی",206],[8,"الأنفال","Al-Anfaal","مدنی",75],[9,"التوبة","At-Tawba","مدنی",129],[10,"يونس","Yunus","مکی",109],[11,"هود","Hud","مکی",123],[12,"يوسف","Yusuf","مکی",111],[13,"الرعد","Ar-Ra'd","مدنی",43],[14,"ابراهيم","Ibrahim","مکی",52],[15,"الحجر","Al-Hijr","مکی",99],[16,"النحل","An-Nahl","مکی",128],[17,"الإسراء","Al-Israa","مکی",111],[18,"الكهف","Al-Kahf","مکی",110],[19,"مريم","Maryam","مکی",98],[20,"طه","Taa-Haa","مکی",135],[21,"الأنبياء","Al-Anbiyaa","مکی",112],[22,"الحج","Al-Hajj","مدنی",78],[23,"المؤمنون","Al-Muminoon","مکی",118],[24,"النور","An-Noor","مدنی",64],[25,"الفرقان","Al-Furqaan","مکی",77],[26,"الشعراء","Ash-Shu'araa","مکی",227],[27,"النمل","An-Naml","مکی",93],[28,"القصص","Al-Qasas","مکی",88],[29,"العنكبوت","Al-Ankaboot","مکی",69],[30,"الروم","Ar-Room","مکی",60],[31,"لقمان","Luqman","مکی",34],[32,"السجدة","As-Sajda","مکی",30],[33,"الأحزاب","Al-Ahzaab","مدنی",73],[34,"سبإ","Saba","مکی",54],[35,"فاطر","Faatir","مکی",45],[36,"يس","Yaseen","مکی",83],[37,"الصافات","As-Saaffaat","مکی",182],[38,"ص","Saad","مکی",88],[39,"الزمر","Az-Zumar","مکی",75],[40,"غافر","Al-Ghaafir","مکی",85],[41,"فصلت","Fussilat","مکی",54],[42,"الشورى","Ash-Shura","مکی",53],[43,"الزخرف","Az-Zukhruf","مکی",89],[44,"الدخان","Ad-Dukhaan","مکی",59],[45,"الجاثية","Al-Jaathiya","مکی",37],[46,"الأحقاف","Al-Ahqaf","مکی",35],[47,"محمد","Muhammad","مدنی",38],[48,"الفتح","Al-Fath","مدنی",29],[49,"الحجرات","Al-Hujuraat","مدنی",18],[50,"ق","Qaaf","مکی",45],[51,"الذاريات","Adh-Dhaariyat","مکی",60],[52,"الطور","At-Tur","مکی",49],[53,"النجم","An-Najm","مکی",62],[54,"القمر","Al-Qamar","مکی",55],[55,"الرحمن","Ar-Rahmaan","مدنی",78],[56,"الواقعة","Al-Waaqia","مکی",96],[57,"الحديد","Al-Hadid","مدنی",29],[58,"المجادلة","Al-Mujaadila","مدنی",22],[59,"الحشر","Al-Hashr","مدنی",24],[60,"الممتحنة","Al-Mumtahana","مدنی",13],[61,"الصف","As-Saff","مدنی",14],[62,"الجمعة","Al-Jumu'a","مدنی",11],[63,"المنافقون","Al-Munaafiqoon","مدنی",11],[64,"التغابن","At-Taghaabun","مدنی",18],[65,"الطلاق","At-Talaaq","مدنی",12],[66,"التحريم","At-Tahrim","مدنی",12],[67,"الملك","Al-Mulk","مکی",30],[68,"القلم","Al-Qalam","مکی",52],[69,"الحاقة","Al-Haaqqa","مکی",52],[70,"المعارج","Al-Ma'aarij","مکی",44],[71,"نوح","Nooh","مکی",28],[72,"الجن","Al-Jinn","مکی",28],[73,"المزمل","Al-Muzzammil","مکی",20],[74,"المدثر","Al-Muddaththir","مکی",56],[75,"القيامة","Al-Qiyaama","مکی",40],[76,"الانسان","Al-Insaan","مدنی",31],[77,"المرسلات","Al-Mursalaat","مکی",50],[78,"النبإ","An-Naba","مکی",40],[79,"النازعات","An-Naazi'aat","مکی",46],[80,"عبس","Abasa","مکی",42],[81,"التكوير","At-Takwir","مکی",29],[82,"الإنفطار","Al-Infitaar","مکی",19],[83,"المطففين","Al-Mutaffifin","مکی",36],[84,"الإنشقاق","Al-Inshiqaaq","مکی",25],[85,"البروج","Al-Burooj","مکی",22],[86,"الطارق","At-Taariq","مکی",17],[87,"الأعلى","Al-A'laa","مکی",19],[88,"الغاشية","Al-Ghaashiya","مکی",26],[89,"الفجر","Al-Fajr","مکی",30],[90,"البلد","Al-Balad","مکی",20],[91,"الشمس","Ash-Shams","مکی",15],[92,"الليل","Al-Lail","مکی",21],[93,"الضحى","Ad-Dhuhaa","مکی",11],[94,"الشرح","Ash-Sharh","مکی",8],[95,"التين","At-Tin","مکی",8],[96,"العلق","Al-Alaq","مکی",19],[97,"القدر","Al-Qadr","مکی",5],[98,"البينة","Al-Bayyina","مدنی",8],[99,"الزلزلة","Az-Zalzala","مدنی",8],[100,"العاديات","Al-Aadiyaat","مکی",11],[101,"القارعة","Al-Qaari'a","مکی",11],[102,"التكاثر","At-Takaathur","مکی",8],[103,"العصر","Al-Asr","مکی",3],[104,"الهمزة","Al-Humaza","مکی",9],[105,"الفيل","Al-Fil","مکی",5],[106,"قريش","Quraish","مکی",4],[107,"الماعون","Al-Maa'un","مکی",7],[108,"الكوثر","Al-Kawthar","مکی",3],[109,"الكافرون","Al-Kaafiroon","مکی",6],[110,"النصر","An-Nasr","مدنی",3],[111,"المسد","Al-Masad","مکی",5],[112,"الإخلاص","Al-Ikhlaas","مکی",4],[113,"الفلق","Al-Falaq","مکی",5],[114,"الناس","An-Naas","مکی",6]],"qg":[1,1,1,2,2,2,3,3,3,3,4,4,4,4,4,4,4,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9]}</script>
+<script id="hy-app">(function () {
+  'use strict';
+  var TITLE = 'Haqqul Yaqeen Institute';
+  var FONTS = 'https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Cormorant+Garamond:ital,wght@1,600&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap';
+  var D = JSON.parse(document.getElementById('hy-data').textContent);
+  var root = document.documentElement;
+  root.setAttribute('lang', 'ur');
+  root.setAttribute('dir', 'rtl');
+
+  /* ---------- static reference data ---------- */
+  var UR = ['', 'الفاتحہ', 'البقرہ', 'آل عمران', 'النساء', 'المائدہ', 'الانعام', 'الاعراف', 'الانفال', 'التوبہ', 'یونس', 'ہود', 'یوسف', 'الرعد', 'ابراہیم', 'الحجر', 'النحل', 'بنی اسرائیل', 'الکہف', 'مریم', 'طٰہٰ', 'الانبیاء', 'الحج', 'المومنون', 'النور', 'الفرقان', 'الشعراء', 'النمل', 'القصص', 'العنکبوت', 'الروم', 'لقمان', 'السجدہ', 'الاحزاب', 'سبا', 'فاطر', 'یٰسٓ', 'الصافات', 'ص', 'الزمر', 'غافر', 'حٰمٓ السجدہ', 'الشوریٰ', 'الزخرف', 'الدخان', 'الجاثیہ', 'الاحقاف', 'محمد', 'الفتح', 'الحجرات', 'ق', 'الذاریات', 'الطور', 'النجم', 'القمر', 'الرحمٰن', 'الواقعہ', 'الحدید', 'المجادلہ', 'الحشر', 'الممتحنہ', 'الصف', 'الجمعہ', 'المنافقون', 'التغابن', 'الطلاق', 'التحریم', 'الملک', 'القلم', 'الحاقہ', 'المعارج', 'نوح', 'الجن', 'المزمل', 'المدثر', 'القیامہ', 'الانسان', 'المرسلات', 'النبا', 'النازعات', 'عبس', 'التکویر', 'الانفطار', 'المطففین', 'الانشقاق', 'البروج', 'الطارق', 'الاعلیٰ', 'الغاشیہ', 'الفجر', 'البلد', 'الشمس', 'اللیل', 'الضحیٰ', 'الم نشرح', 'التین', 'العلق', 'القدر', 'البینہ', 'الزلزال', 'العادیات', 'القارعہ', 'التکاثر', 'العصر', 'الہمزہ', 'الفیل', 'قریش', 'الماعون', 'الکوثر', 'الکافرون', 'النصر', 'المسد', 'الاخلاص', 'الفلق', 'الناس'];
+  var PARA_START = [[1, 1], [2, 142], [2, 253], [3, 93], [4, 24], [4, 148], [5, 82], [6, 111], [7, 88], [8, 41], [9, 93], [11, 6], [12, 53], [15, 1], [17, 1], [18, 75], [21, 1], [23, 1], [25, 21], [27, 56], [29, 46], [33, 31], [36, 28], [39, 32], [41, 47], [46, 1], [51, 31], [58, 1], [67, 1], [78, 1]];
+  var PARA_NAME = ['الٓمٓ', 'سَیَقُولُ', 'تِلْکَ الرُّسُلُ', 'لَنْ تَنَالُوا', 'وَالْمُحْصَنَاتُ', 'لَا یُحِبُّ اللّٰہُ', 'وَإِذَا سَمِعُوا', 'وَلَوْ أَنَّنَا', 'قَالَ الْمَلَأُ', 'وَاعْلَمُوا', 'یَعْتَذِرُونَ', 'وَمَا مِنْ دَابَّةٍ', 'وَمَا أُبَرِّئُ', 'رُبَمَا', 'سُبْحَانَ الَّذِی', 'قَالَ أَلَمْ', 'اقْتَرَبَ', 'قَدْ أَفْلَحَ', 'وَقَالَ الَّذِینَ', 'أَمَّنْ خَلَقَ', 'اُتْلُ مَا أُوحِیَ', 'وَمَنْ یَقْنُتْ', 'وَمَا لِیَ', 'فَمَنْ أَظْلَمُ', 'إِلَیْهِ یُرَدُّ', 'حٰمٓ', 'قَالَ فَمَا خَطْبُکُمْ', 'قَدْ سَمِعَ اللّٰہُ', 'تَبَارَكَ الَّذِی', 'عَمَّ'];
+  var DAILY = [[2, 286], [94, 6], [13, 28], [2, 152], [65, 3], [39, 53], [3, 139], [2, 153], [20, 114], [2, 186], [29, 69], [3, 159], [49, 13], [16, 97], [33, 35], [2, 255], [93, 3], [93, 5], [2, 45], [8, 46], [3, 200], [40, 60], [2, 201], [25, 74], [17, 24], [31, 14], [57, 4], [50, 16], [2, 216], [112, 1]];
+  var DHIKR = [['سُبْحَانَ ٱللَّهِ', 33], ['ٱلْحَمْدُ لِلَّهِ', 33], ['ٱللَّهُ أَكْبَرُ', 34], ['أَسْتَغْفِرُ ٱللَّهَ', 100], ['لَا إِلَٰهَ إِلَّا ٱللَّهُ', 100], ['صَلَّى ٱللَّهُ عَلَيْهِ وَسَلَّمَ', 100]];
+
+  /* ---------- helpers ---------- */
+  var store = {
+    get: function (k, d) { try { var v = localStorage.getItem('hy:' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set: function (k, v) { try { localStorage.setItem('hy:' + k, JSON.stringify(v)); } catch (e) { /* ignore */ } }
+  };
+  var NUM = '۰۱۲۳۴۵۶۷۸۹';
+  function nu(n) { return String(n).replace(/\d/g, function (d) { return NUM[d]; }); }
+  function h(tag, props) {
+    var el = document.createElement(tag);
+    var after = null;
+    if (props) {
+      Object.keys(props).forEach(function (k) {
+        var v = props[k];
+        if (v === false || v == null) return;
+        if (k === 'class') el.className = v;
+        else if (k.slice(0, 2) === 'on') el.addEventListener(k.slice(2), v);
+        else if (k === 'value') after = v;
+        else if (k === 'checked') el.checked = !!v;
+        else el.setAttribute(k, v === true ? '' : v);
+      });
+    }
+    (function add(list) {
+      list.forEach(function (c) {
+        if (c == null || c === false) return;
+        if (Array.isArray(c)) add(c);
+        else el.appendChild(c.nodeType ? c : document.createTextNode(String(c)));
+      });
+    })(Array.prototype.slice.call(arguments, 2));
+    if (after != null) el.value = after;
+    return el;
+  }
+  var ICONS = {
+    home: '<path d="M4 11l8-7 8 7v9H4z"/>',
+    quran: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H19v-5"/><path d="M12 7.5l1.2 1.6 2-.2-.2 2 1.6 1.2-1.6 1.2.2 2-2-.2L12 16.7l-1.2-1.6-2 .2.2-2L7.4 12l1.6-1.2-.2-2 2 .2z" stroke-width="1.2"/>',
+    lectures: '<circle cx="12" cy="12" r="9"/><path d="M10 8.5l5.2 3.5-5.2 3.5z"/>',
+    stories: '<path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/><path d="M17 4v3M15.5 5.5h3"/>',
+    articles: '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/>',
+    quizzes: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7"/><path d="M12 17h.01"/>',
+    tasbeeh: '<circle cx="12" cy="12" r="3.2"/><circle cx="12" cy="4.5" r="1.6"/><circle cx="12" cy="19.5" r="1.6"/><circle cx="4.5" cy="12" r="1.6"/><circle cx="19.5" cy="12" r="1.6"/>',
+    search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',
+    sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/>',
+    moon: '<path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/>',
+    gear: '<path d="M12 3l2 .5.6 2.2 2 .9 2-1.2 1.5 1.5-1.2 2 .9 2 2.2.6v2l-2.2.6-.9 2 1.2 2-1.5 1.5-2-1.2-2 .9-.6 2.2h-2l-.6-2.2-2-.9-2 1.2L4.9 17l1.2-2-.9-2L3 12.4v-2l2.2-.6.9-2-1.2-2L6.4 4.3l2 1.2 2-.9L11 2.5z" stroke-width="1.4"/><circle cx="12" cy="11.5" r="2.6"/>',
+    bookmark: '<path d="M6 3h12v18l-6-4-6 4z"/>',
+    copy: '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/>',
+    note: '<path d="M5 4h14v12l-5 5H5z"/><path d="M14 21v-5h5M8 9h8M8 13h4"/>',
+    check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+    arrow: '<path d="M19 12H5M11 6l-6 6 6 6"/>',
+    file: '<path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5"/>',
+    link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>',
+    close: '<path d="M6 6l12 12M18 6L6 18"/>',
+    plus: '<path d="M12 5v14M5 12h14"/>',
+    folder: '<path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>',
+    flame: '<path d="M12 3c1 4 5 5.5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .3 1.2 1 2 2 2 0-3-1-5 1-8z"/>'
+  };
+  function icon(n, size) {
+    var s = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    s.setAttribute('viewBox', '0 0 24 24');
+    s.setAttribute('width', size || 20);
+    s.setAttribute('height', size || 20);
+    s.setAttribute('fill', 'none');
+    s.setAttribute('stroke', 'currentColor');
+    s.setAttribute('stroke-width', '1.8');
+    s.setAttribute('stroke-linecap', 'round');
+    s.setAttribute('stroke-linejoin', 'round');
+    s.setAttribute('aria-hidden', 'true');
+    s.innerHTML = ICONS[n] || ICONS.folder;
+    return s;
+  }
+  function starPts(cx, cy, ro, ri, n, rot) {
+    var p = [];
+    for (var i = 0; i < n * 2; i++) {
+      var r = i % 2 ? ri : ro;
+      var a = Math.PI * i / n - Math.PI / 2 + (rot || 0);
+      p.push((cx + r * Math.cos(a)).toFixed(1) + ',' + (cy + r * Math.sin(a)).toFixed(1));
+    }
+    return p.join(' ');
+  }
+  function emblem() {
+    var d = h('div', { class: 'hero-emblem', 'aria-hidden': 'true' });
+    d.innerHTML = '<svg viewBox="0 0 240 240"><polygon class="em-a" points="' + starPts(120, 120, 116, 84, 8, 0) + '"/>' +
+      '<polygon class="em-b" points="' + starPts(120, 120, 100, 72, 8, Math.PI / 8) + '"/>' +
+      '<circle class="em-c" cx="120" cy="120" r="64"/>' +
+      '<text class="em-t" x="120" y="118" text-anchor="middle" font-size="44">حَقُّ</text><text class="em-t" x="120" y="162" text-anchor="middle" font-size="32">ٱلْيَقِين</text></svg>';
+    return d;
+  }
+  function miniMark() {
+    var s = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    s.setAttribute('viewBox', '0 0 40 40');
+    s.setAttribute('class', 'brand-mark');
+    s.setAttribute('aria-hidden', 'true');
+    s.innerHTML = '<polygon points="' + starPts(20, 20, 19, 13, 8, 0) + '" fill="none" stroke="currentColor" stroke-width="1.6"/><polygon points="' + starPts(20, 20, 11, 7.5, 8, Math.PI / 8) + '" fill="currentColor"/>';
+    return s;
+  }
+  function paras(text) { return String(text || '').split(/\n{2,}/).map(function (p) { return h('p', null, p); }); }
+  function readMin(text) { return Math.max(1, Math.round(String(text || '').split(/\s+/).length / 150)); }
+  var toastEl = null, toastT = null;
+  function toast(msg) {
+    if (toastEl) toastEl.remove();
+    toastEl = h('div', { class: 'toast', role: 'status' }, msg);
+    document.body.appendChild(toastEl);
+    clearTimeout(toastT);
+    toastT = setTimeout(function () { if (toastEl) toastEl.remove(); toastEl = null; }, 4200);
+  }
+  function uid(p) { return p + Date.now().toString(36) + Math.floor(Math.random() * 1296).toString(36); }
+  function norm(s) {
+    return String(s || '').replace(/[ً-ٰٟۖ-ۭـ‌‍]/g, '')
+      .replace(/[ٱأإآ]/g, 'ا').replace(/[ىیے]/g, 'ي').replace(/ک/g, 'ك').replace(/[ةہھۃ]/g, 'ه').replace(/ۂ/g, 'ه').toLowerCase();
+  }
+  function safeUrl(u) { return /^https?:\/\//i.test(String(u || '').trim()) ? String(u).trim() : ''; }
+  function pub(arr) { return (arr || []).filter(function (x) { return !x.hidden; }); }
+  function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function dayKey(d) { d = d || new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
+  function markDay() {
+    var days = store.get('days', []);
+    var k = dayKey();
+    if (days.indexOf(k) < 0) { days.push(k); store.set('days', days.slice(-400)); }
+  }
+  function streak() {
+    var days = store.get('days', []);
+    var n = 0, d = new Date();
+    if (days.indexOf(dayKey(d)) < 0) d.setDate(d.getDate() - 1);
+    while (days.indexOf(dayKey(d)) > -1) { n++; d.setDate(d.getDate() - 1); }
+    return n;
+  }
+  function withMarkers(text) {
+    var out = [];
+    String(text || '').split(/(\[\d+\])/).forEach(function (part) {
+      if (/^\[\d+\]$/.test(part)) out.push(h('sup', { class: 'fnref' }, nu(part.slice(1, -1))));
+      else if (part) out.push(part);
+    });
+    return out;
+  }
+
+  /* ---------- quran data ---------- */
+  var qCache = {}, qGroupP = {};
+  var QI;
+  function qInline() {
+    if (QI === undefined) {
+      var el = document.getElementById('hy-q');
+      try { QI = el ? JSON.parse(el.textContent) : null; } catch (e) { QI = null; }
+    }
+    return QI;
+  }
+  function loadQ(n) {
+    if (qCache[n]) return Promise.resolve(qCache[n]);
+    if (qInline() && qInline()[n]) { qCache[n] = qInline()[n]; return Promise.resolve(qCache[n]); }
+    if (D.qg) {
+      var g = D.qg[n - 1];
+      if (!qGroupP[g]) {
+        qGroupP[g] = fetch('q/g' + g + '.json').then(function (r) { if (!r.ok) throw new Error('http'); return r.json(); }).then(function (o) {
+          Object.keys(o).forEach(function (k) { qCache[k] = o[k]; });
+        }).catch(function (e) { delete qGroupP[g]; throw e; });
+      }
+      return qGroupP[g].then(function () { return qCache[n]; });
+    }
+    return fetch('q/' + n + '.json').then(function (r) { if (!r.ok) throw new Error('http'); return r.json(); }).then(function (d) { qCache[n] = d; return d; });
+  }
+  function startPos(nSurah, a) { return a; }
+
+  /* ---------- state ---------- */
+  var NAVB = [['home', 'ہوم', 'home'], ['quran', 'قرآن', 'quran'], ['lectures', 'لیکچرز', 'lectures'], ['stories', 'انبیاء کے قصے', 'stories'], ['articles', 'مضامین', 'articles'], ['quizzes', 'کوئز', 'quizzes'], ['tasbeeh', 'ذکر و تسبیح', 'tasbeeh']];
+  var KINDS = { lectures: 'لیکچرز / ویڈیو', articles: 'مضامین / تحریر', quizzes: 'کوئز' };
+  var S = { page: 'home', id: null, filter: '', qtab: 'surahs', qq: '' };
+  var Q = null;
+  var STATIC = !(window.claude && window.claude.use);
+  var canEdit = false, assetsApi = null, dirty = false, dlApi = null;
+  function canAdmin() { return STATIC || canEdit; }
+  function assetUrl(a) { return String(a).indexOf('/') > -1 ? a : '/_blob/' + a; }
+  var A = { tab: 'lectures', edit: null, isNew: false, del: null, busy: false, err: '', txt: {} };
+  var readerPrefs = store.get('rd', { size: 34, tr: 'ju', fn: true, nt: true });
+  var openNote = null;
+
+  function secs() { return D.sections || []; }
+  function secById(id) { return secs().find(function (s) { return s.id === id; }); }
+  function validPage(p) {
+    if (['home', 'quran', 'lectures', 'stories', 'articles', 'quizzes', 'tasbeeh', 'admin'].indexOf(p) > -1) return true;
+    return p.indexOf('sec-') === 0 && !!secById(p.slice(4));
+  }
+  function ctxFor(page) {
+    if (page.indexOf('sec-') === 0) {
+      var s = secById(page.slice(4));
+      if (!s) return null;
+      return { key: page, kind: s.kind, title: s.name, desc: s.desc, arr: (D.custom[s.id] = D.custom[s.id] || []), custom: true };
+    }
+    var map = {
+      lectures: ['lectures', 'مستند لیکچرز', 'ویڈیو، آڈیو اور تحریری نوٹس، موضوع کے لحاظ سے۔', D.lectures],
+      stories: ['stories', 'انبیاء کرام کے قصے', 'قرآن میں بیان ہونے والے واقعات آسان اردو میں، ہر قصے کے آخر میں سبق کے ساتھ۔', D.stories],
+      articles: ['articles', 'اسلامی مضامین', 'عبادات، اخلاق، گھر اور قرآن سے متعلق مختصر اور مفید تحریریں۔', D.articles],
+      quizzes: ['quizzes', 'کوئز', 'ہر سوال کے بعد فوراً جواب اور وضاحت دیکھیں۔', D.quizzes]
+    };
+    var m = map[page];
+    return m ? { key: page, kind: m[0], title: m[1], desc: m[2], arr: m[3], custom: false } : null;
+  }
+
+  var initialHash = (location.hash || '').replace('#', '');
+  if (validPage(initialHash)) S.page = initialHash;
+  try {
+    if (sessionStorage.getItem('hy:pub')) { sessionStorage.removeItem('hy:pub'); S.page = 'admin'; setTimeout(function () { toast('تبدیلیاں شائع ہو گئیں'); }, 400); }
+  } catch (e) { /* ignore */ }
+
+  var appEl = document.getElementById('app');
+  var viewEl, navEl, adminBtn, themeBtn, searchEl;
+
+  function go(page, id, extra) {
+    S.page = page; S.id = id || null; S.filter = '';
+    S.focus = extra && extra.focus != null ? extra.focus : null;
+    if (extra && extra.qtab) S.qtab = extra.qtab;
+    if (extra && extra.qq != null) S.qq = extra.qq;
+    if (!(id && Q && Q.qz.id === id)) Q = null;
+    if (id && page !== 'admin' && page !== 'quran') markDay();
+    try { history.replaceState(null, '', '#' + page); } catch (e) { /* ignore */ }
+    render();
+    if (S.focus != null) scrollToAyah(S.focus); else window.scrollTo(0, 0);
+  }
+  function scrollToAyah(i) {
+    var tries = 0;
+    (function t() {
+      var el = document.getElementById('ay-' + i);
+      if (el) { el.scrollIntoView({ block: 'center' }); return; }
+      if (tries++ < 30) setTimeout(t, 100);
+    })();
+  }
+
+  /* ---------- shell ---------- */
+  function navItems() {
+    var items = NAVB.map(function (n) { return [n[0], n[1], n[2]]; });
+    secs().forEach(function (s) { items.push(['sec-' + s.id, s.name, s.kind]); });
+    return items;
+  }
+  function buildNav() {
+    navEl.textContent = '';
+    navItems().forEach(function (n) {
+      navEl.appendChild(h('button', { 'data-p': n[0], onclick: function () { go(n[0]); } }, n[1]));
+    });
+  }
+  function buildShell() {
+    appEl.textContent = '';
+    themeBtn = h('button', { class: 'icon-btn', 'aria-label': 'روشنی / اندھیرا موڈ', onclick: toggleTheme }, icon('moon'));
+    adminBtn = h('button', { class: 'icon-btn', 'aria-label': 'ایڈمن پینل', hidden: true, onclick: function () { go('admin'); } }, icon('gear'));
+    navEl = h('nav', { class: 'nav ui', 'aria-label': 'اہم حصے' });
+    var head = h('header', { class: 'site-head' },
+      h('div', { class: 'wrap' },
+        h('div', { class: 'head-row' },
+          h('button', { class: 'brand', 'aria-label': 'ہوم پیج', onclick: function () { go('home'); } },
+            miniMark(),
+            h('span', { class: 'brand-text' },
+              h('span', { class: 'brand-ur' }, 'حق الیقین انسٹیٹیوٹ'),
+              h('span', { class: 'brand-en' }, 'Haqqul Yaqeen Institute'))),
+          h('button', { class: 'icon-btn', 'aria-label': 'تلاش', onclick: openSearch }, icon('search')),
+          themeBtn, adminBtn),
+        navEl));
+    viewEl = h('main', { id: 'view' });
+    searchEl = h('div', { class: 'overlay', hidden: true, role: 'dialog', 'aria-modal': 'true', 'aria-label': 'تلاش', onclick: function (e) { if (e.target === searchEl) closeSearch(); } });
+    appEl.appendChild(head);
+    appEl.appendChild(viewEl);
+    appEl.appendChild(footer());
+    appEl.appendChild(searchEl);
+    buildNav();
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !searchEl.hidden) closeSearch(); });
+  }
+  function footer() {
+    return h('footer', { class: 'wrap foot' },
+      h('div', null, h('b', null, 'حق الیقین انسٹیٹیوٹ'), ' · Haqqul Yaqeen Institute'),
+      h('div', null, 'خواتین اور بچیوں کے لیے دینی تعلیم کا آسان پلیٹ فارم۔'),
+      h('div', { class: 'credits' }, 'قرآنی متن: ', h('a', { href: 'https://tanzil.net', target: '_blank', rel: 'noopener' }, 'Tanzil.net'),
+        ' (CC BY 3.0)۔ اردو ترجمہ و حواشی: محمد جوناگڑھی، ', h('a', { href: 'https://quranenc.com/en/browse/urdu_junagarhi', target: '_blank', rel: 'noopener' }, 'QuranEnc.com'),
+        ' (ورژن 1.1.3)۔ دوسرا ترجمہ: شیخ الہند محمود الحسنؒ۔'),
+      D.site.contact ? h('div', null, D.site.contact) : null,
+      STATIC ? h('div', { style: 'margin-top:8px' }, h('a', { href: '#admin', class: 'adm-link', onclick: function (e) { e.preventDefault(); go('admin'); } }, 'ایڈمن')) : null);
+  }
+  function currentDark() {
+    var t = root.getAttribute('data-theme');
+    if (t) return t === 'dark';
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+  function applyTheme() {
+    var t = store.get('theme', null);
+    if (t) root.setAttribute('data-theme', t);
+    if (themeBtn) { themeBtn.textContent = ''; themeBtn.appendChild(icon(currentDark() ? 'sun' : 'moon')); }
+  }
+  function toggleTheme() { store.set('theme', currentDark() ? 'light' : 'dark'); applyTheme(); }
+  function render() {
+    if (!validPage(S.page)) S.page = 'home';
+    viewEl.textContent = '';
+    var fn = { home: pageHome, quran: pageQuran, tasbeeh: pageTasbeeh, admin: pageAdmin }[S.page] || pageSection;
+    viewEl.appendChild(fn());
+    buildNav();
+    Array.prototype.forEach.call(navEl.children, function (b) {
+      if (b.getAttribute('data-p') === S.page) {
+        b.setAttribute('aria-current', 'page');
+        try { b.scrollIntoView({ inline: 'center', block: 'nearest' }); } catch (e) { /* ignore */ }
+      }
+    });
+    adminBtn.hidden = !canEdit;
+    var dot = adminBtn.querySelector('.dot');
+    if (dirty && !dot) adminBtn.appendChild(h('span', { class: 'dot' }));
+    if (!dirty && dot) dot.remove();
+  }
+
+  /* ---------- shared bits ---------- */
+  function wrapEl() { return h.apply(null, ['div', { class: 'wrap' }].concat(Array.prototype.slice.call(arguments))); }
+  function pageHead(title, sub) { return h('div', { class: 'page-head' }, h('h1', null, title), sub ? h('p', null, sub) : null); }
+  function backBtn(label, fn) { return h('button', { class: 'back', onclick: fn }, icon('arrow', 16), label); }
+  function emptyBox(msg, ico, btnLabel, fn) {
+    return h('div', { class: 'empty' }, icon(ico || 'stories', 40), h('p', null, msg), btnLabel ? h('button', { class: 'btn ui', onclick: fn }, btnLabel) : null);
+  }
+  function chipRow(options, cur, pick) {
+    return h('div', { class: 'chips', role: 'group' }, options.map(function (o) {
+      return h('button', { class: 'chip', 'aria-pressed': String(cur === o[0]), onclick: function () { pick(o[0]); } }, o[1]);
+    }));
+  }
+  function qm(n) { return D.qm[n - 1]; }
+  function sname(n) { return UR[n] || ('سورت ' + nu(n)); }
+
+  /* ---------- home ---------- */
+  function pageHome() {
+    var root_ = h('div');
+    root_.appendChild(h('section', { class: 'hero' },
+      h('div', { class: 'wrap hero-in' },
+        h('div', null,
+          h('div', { class: 'hero-eyebrow' }, 'Haqqul Yaqeen Institute'),
+          h('h1', null, 'حق الیقین انسٹیٹیوٹ'),
+          h('p', { class: 'lead' }, D.site.tagline),
+          h('div', { class: 'hero-cta' },
+            h('button', { class: 'btn', onclick: function () { go('quran'); } }, icon('quran', 18), 'قرآن پڑھیں'),
+            h('button', { class: 'btn ghost', onclick: function () { go('quizzes'); } }, icon('quizzes', 18), 'کوئز کھیلیں'))),
+        emblem())));
+
+    var wrap = wrapEl();
+    var daily = h('section', { class: 'daily', 'aria-label': 'آج کی آیت' }, h('div', { class: 'tag' }, 'آج کی آیت'), h('p', { class: 'note' }, 'لوڈ ہو رہی ہے…'));
+    wrap.appendChild(daily);
+    var ref = DAILY[Math.floor(Date.now() / 864e5) % DAILY.length];
+    loadQ(ref[0]).then(function (d) {
+      var i = ref[1] - 1;
+      if (!d.a[i]) throw new Error('range');
+      daily.textContent = '';
+      daily.appendChild(h('div', { class: 'tag' }, 'آج کی آیت'));
+      daily.appendChild(h('p', { class: 'ar', lang: 'ar' }, d.a[i]));
+      daily.appendChild(h('p', { class: 'ur' }, d.m[i]));
+      daily.appendChild(h('div', { class: 'ref ui' }, 'سورۃ ' + sname(ref[0]) + '، آیت ' + nu(ref[1]) + ' · ',
+        h('a', { href: '#quran', onclick: function (e) { e.preventDefault(); go('quran', String(ref[0]), { focus: i }); } }, 'پوری سورت پڑھیں')));
+    }).catch(function () { daily.remove(); });
+
+    var sk = streak();
+    var days = store.get('days', []);
+    var dots = [];
+    for (var i = 6; i >= 0; i--) {
+      var dd = new Date(); dd.setDate(dd.getDate() - i);
+      dots.push(h('span', { class: 'sdot' + (days.indexOf(dayKey(dd)) > -1 ? ' on' : ''), title: dayKey(dd) }));
+    }
+    var last = store.get('last', null);
+    var lastOk = last && last.id && qm(parseInt(last.id, 10));
+    var bms = store.get('bm', []);
+    wrap.appendChild(h('div', { class: 'section two' },
+      h('div', { class: 'card sec' },
+        h('div', { class: 'streak-top' }, h('span', { class: 'ico' }, icon('flame', 22)), h('div', null, h('h3', null, sk ? nu(sk) + ' دن کا سلسلہ' : 'آج سے شروع کریں'), h('span', { class: 'meta' }, 'روزانہ تھوڑا سا سیکھنے کی عادت بنائیں'))),
+        h('div', { class: 'sdots', 'aria-label': 'پچھلے سات دن' }, dots)),
+      h('div', { class: 'card sec' },
+        h('h3', null, 'پڑھنا جاری رکھیں'),
+        lastOk ? h('p', { class: 'txt' }, 'آخری بار آپ سورۃ ' + sname(parseInt(last.id, 10)) + (last.a != null ? '، آیت ' + nu(last.a + 1) : '') + ' پر تھیں۔') : h('p', { class: 'txt' }, 'قرآن کھولیں اور جہاں سے رکیں گی وہ جگہ یاد رکھی جائے گی۔'),
+        h('div', { class: 'row-actions ui', style: 'margin-top:auto;padding-top:8px' },
+          h('button', { class: 'btn sm', onclick: function () { lastOk ? go('quran', String(last.id), { focus: last.a != null ? last.a : null }) : go('quran'); } }, lastOk ? 'جاری رکھیں' : 'قرآن کھولیں'),
+          bms.length ? h('button', { class: 'btn sm soft', onclick: function () { go('quran', null, { qtab: 'bm' }); } }, nu(bms.length) + ' بک مارک') : null))));
+
+    var cards = [
+      ['quran', 'قرآن', 'پورا قرآن، اردو ترجمہ اور حواشی کے ساتھ', '۱۱۴ سورتیں', 'quran'],
+      ['lectures', 'لیکچرز', 'ویڈیو، آڈیو اور نوٹس', nu(pub(D.lectures).length) + ' لیکچرز', 'lectures'],
+      ['stories', 'انبیاء کے قصے', 'آسان اردو میں، سبق کے ساتھ', nu(pub(D.stories).length) + ' قصے', 'stories'],
+      ['articles', 'مضامین', 'عبادات، اخلاق اور گھر', nu(pub(D.articles).length) + ' مضامین', 'articles'],
+      ['quizzes', 'کوئز', 'کھیل کھیل میں سیکھیں', nu(pub(D.quizzes).length) + ' کوئز', 'quizzes'],
+      ['tasbeeh', 'ذکر و تسبیح', 'اپنا ذکر گنیں اور ہدف پورا کریں', 'ڈیجیٹل کاؤنٹر', 'tasbeeh']
+    ];
+    secs().forEach(function (s) {
+      cards.push(['sec-' + s.id, s.name, s.desc || '', nu(pub(D.custom[s.id]).length) + ' مواد', s.kind]);
+    });
+    wrap.appendChild(h('section', { class: 'section' },
+      h('div', { class: 'sec-head' }, h('h2', null, 'یہاں سے سیکھیں')),
+      h('div', { class: 'grid' }, cards.map(function (s) {
+        return h('button', { class: 'card sec', onclick: function () { go(s[0]); } },
+          h('span', { class: 'ico' }, icon(s[4], 22)),
+          h('h3', null, s[1]),
+          h('p', { class: 'txt' }, s[2]),
+          h('span', { class: 'count' }, s[3]));
+      }))));
+
+    var st = pub(D.stories);
+    if (st.length) {
+      wrap.appendChild(h('section', { class: 'section' },
+        h('div', { class: 'sec-head' }, h('h2', null, 'انبیاء کے قصے'), h('button', { class: 'btn soft sm ui', onclick: function () { go('stories'); } }, 'سب دیکھیں')),
+        h('div', { class: 'grid' }, st.slice(0, 3).map(function (s) { return storyCard(s, 'stories'); }))));
+    }
+    var ar = pub(D.articles);
+    if (ar.length) {
+      wrap.appendChild(h('section', { class: 'section' },
+        h('div', { class: 'sec-head' }, h('h2', null, 'تازہ مضامین'), h('button', { class: 'btn soft sm ui', onclick: function () { go('articles'); } }, 'سب دیکھیں')),
+        ar.slice(0, 3).map(function (a) { return articleRow(a, 'articles'); })));
+    }
+    root_.appendChild(wrap);
+    root_.appendChild(h('section', { class: 'about' }, wrapEl(h('h2', { style: 'font-size:1.4rem' }, 'ہمارا مقصد'), h('p', null, D.site.about))));
+    return root_;
+  }
+
+  /* ---------- quran ---------- */
+  function pageQuran() {
+    if (S.id) {
+      var n = parseInt(S.id, 10);
+      if (n >= 1 && n <= 114) return readerView(n);
+    }
+    var w = wrapEl(pageHead('قرآن مجید', 'پورا قرآن اردو ترجمہ اور حواشی کے ساتھ۔ ہر آیت پر بک مارک، نوٹ اور کاپی کی سہولت۔'));
+    w.appendChild(chipRow([['surahs', 'سورتیں'], ['paras', 'پارے'], ['bm', 'بک مارک'], ['search', 'تلاش']], S.qtab, function (v) { S.qtab = v; render(); }));
+    var body = h('div');
+    if (S.qtab === 'paras') body.appendChild(parasView());
+    else if (S.qtab === 'bm') body.appendChild(bookmarksView());
+    else if (S.qtab === 'search') body.appendChild(quranSearchView());
+    else body.appendChild(surahListView());
+    w.appendChild(body);
+    return w;
+  }
+  function surahListView() {
+    var box = h('div');
+    var input = h('input', { class: 'field-input', type: 'search', id: 'surah-filter', placeholder: 'سورت کا نام یا نمبر لکھیں', value: S.filter, 'aria-label': 'سورت تلاش کریں' });
+    var grid = h('div', { class: 'grid', style: 'margin-top:14px' });
+    function fill() {
+      grid.textContent = '';
+      var f = norm(input.value);
+      var items = D.qm.filter(function (m) { return !f || norm(sname(m[0]) + ' ' + m[1] + ' ' + m[2] + ' ' + m[0]).indexOf(f) > -1; });
+      if (!items.length) grid.appendChild(h('p', { class: 'note' }, 'کوئی سورت نہیں ملی۔'));
+      items.forEach(function (m) {
+        var card = h('button', { class: 'surah', onclick: function () { go('quran', String(m[0])); } },
+          h('span', { class: 'surah-no' }, nu(m[0])),
+          h('span', null, h('span', { class: 'surah-name' }, sname(m[0])),
+            h('span', { class: 'surah-meaning' }, [m[2], m[3], nu(m[4]) + ' آیات'].join(' · '))),
+          h('span', { class: 'surah-ar', lang: 'ar' }, m[1]));
+        grid.appendChild(AUDIO_ON ? h('div', { class: 'surah-wrap' }, card, listenBtn(m[0])) : card);
+      });
+    }
+    input.addEventListener('input', function () { S.filter = input.value; fill(); });
+    box.appendChild(input); box.appendChild(grid); fill();
+    return box;
+  }
+  function parasView() {
+    return h('div', { class: 'grid' }, PARA_START.map(function (p, i) {
+      return h('button', { class: 'surah', onclick: function () { go('quran', String(p[0]), { focus: p[1] - 1 }); } },
+        h('span', { class: 'surah-no' }, nu(i + 1)),
+        h('span', null, h('span', { class: 'surah-name' }, 'پارہ ' + nu(i + 1)), h('span', { class: 'surah-meaning' }, 'سورۃ ' + sname(p[0]) + '، آیت ' + nu(p[1]))),
+        h('span', { class: 'surah-ar', lang: 'ar' }, PARA_NAME[i]));
+    }));
+  }
+  function bookmarksView() {
+    var bms = store.get('bm', []).slice().sort(function (a, b) { return a.id - b.id || a.a - b.a; });
+    var notes = store.get('notes', {});
+    if (!bms.length) return emptyBox('ابھی کوئی بک مارک نہیں۔ کسی بھی آیت کے ساتھ بک مارک کا نشان دبائیں۔', 'bookmark');
+    return h('div', null, bms.map(function (b) {
+      var n = parseInt(b.id, 10);
+      var note = notes[b.id + ':' + b.a];
+      return h('button', { class: 'list-row', onclick: function () { go('quran', String(n), { focus: b.a }); } },
+        h('div', null, h('h3', { style: 'font-size:1.05rem' }, 'سورۃ ' + sname(n) + '، آیت ' + nu(b.a + 1)), note ? h('div', { class: 'meta' }, 'نوٹ: ' + note.slice(0, 80)) : null),
+        icon('bookmark', 18));
+    }));
+  }
+  function loadAllQ(onProgress) {
+    var pending = [];
+    for (var n = 1; n <= 114; n++) if (!qCache[n]) pending.push(n);
+    var idx = 0, done = 114 - pending.length, failed = false;
+    return new Promise(function (resolve, reject) {
+      if (!pending.length) { resolve(); return; }
+      function next() {
+        if (failed || idx >= pending.length) return;
+        loadQ(pending[idx++]).then(function () {
+          done++; onProgress(done);
+          if (done >= 114) resolve(); else next();
+        }).catch(function (e) { failed = true; reject(e); });
+      }
+      for (var k = 0; k < 6; k++) next();
+    });
+  }
+  function quranSearchView() {
+    var box = h('div');
+    var input = h('input', { class: 'field-input', type: 'search', id: 'quran-q', placeholder: 'اردو ترجمہ یا عربی لفظ لکھ کر آیات تلاش کریں', value: S.qq, 'aria-label': 'قرآن میں تلاش' });
+    var status = h('p', { class: 'note', style: 'margin-top:12px' }, 'کم از کم دو حروف لکھیں۔ پہلی تلاش میں قرآن کا ڈیٹا لوڈ ہوتا ہے، چند لمحے لگ سکتے ہیں۔');
+    var res = h('div', { style: 'margin-top:12px' });
+    var timer = null;
+    function run() {
+      var q = norm(input.value.trim());
+      S.qq = input.value;
+      res.textContent = '';
+      if (q.length < 2) { status.textContent = 'کم از کم دو حروف لکھیں۔'; return; }
+      status.textContent = 'ڈیٹا لوڈ ہو رہا ہے…';
+      loadAllQ(function (c) { status.textContent = 'ڈیٹا لوڈ ہو رہا ہے… ' + nu(c) + '/۱۱۴'; }).then(function () {
+        if (norm(input.value.trim()) !== q) return;
+        var hits = [];
+        for (var n = 1; n <= 114 && hits.length < 120; n++) {
+          var d = qCache[n];
+          for (var i = 0; i < d.a.length; i++) {
+            if (norm(d.a[i]).indexOf(q) > -1 || norm(d.j[i]).indexOf(q) > -1 || norm(d.m[i]).indexOf(q) > -1) hits.push([n, i, d.m[i], d.a[i]]);
+          }
+        }
+        status.textContent = hits.length ? (hits.length >= 120 ? 'پہلے ۱۲۰ نتائج دکھائے جا رہے ہیں، تلاش مزید واضح کریں۔' : nu(hits.length) + ' نتائج') : 'کوئی نتیجہ نہیں ملا۔ کسی اور لفظ سے کوشش کریں۔';
+        res.textContent = '';
+        hits.forEach(function (x) {
+          res.appendChild(h('button', { class: 'list-row', onclick: function () { go('quran', String(x[0]), { focus: x[1] }); } },
+            h('div', null, h('div', { class: 'meta' }, 'سورۃ ' + sname(x[0]) + '، آیت ' + nu(x[1] + 1)), h('div', { style: 'line-height:2' }, x[2].slice(0, 160))), icon('arrow', 16)));
+        });
+      }).catch(function () { status.textContent = 'قرآن کا ڈیٹا لوڈ نہیں ہو سکا۔ انٹرنیٹ چیک کر کے دوبارہ کوشش کریں۔'; });
+    }
+    input.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(run, 350); });
+    box.appendChild(input); box.appendChild(status); box.appendChild(res);
+    if (S.qq) setTimeout(run, 0);
+    return box;
+  }
+
+  function copyText(text) {
+    var ok = function () { toast('کاپی ہو گیا'); };
+    var fail = function () {
+      try {
+        var ta = h('textarea', { style: 'position:fixed;opacity:0' }, text);
+        document.body.appendChild(ta); ta.select();
+        var r = document.execCommand('copy'); ta.remove();
+        if (r) ok(); else toast('کاپی نہیں ہو سکا');
+      } catch (e) { toast('کاپی نہیں ہو سکا'); }
+    };
+    try { navigator.clipboard.writeText(text).then(ok, fail); } catch (e) { fail(); }
+  }
+  var scrollHandler = null;
+
+  /* ---------- recitation audio (online hosting only) ---------- */
+  var AUDIO_ON = STATIC;
+  var RECITERS = [
+    ['alafasy', 'مشاری راشد العفاسی', 'کویت', 'https://cdn.mp3quran.net/audio/mishary-alafasy/r1/', 'https://server8.mp3quran.net/afs/'],
+    ['sudais', 'عبدالرحمن السدیس', 'امامِ حرم، مکہ مکرمہ', 'https://cdn.mp3quran.net/audio/abdulrahman-sudais/r1/', 'https://server11.mp3quran.net/sds/'],
+    ['shuraim', 'سعود الشریم', 'امامِ حرم، مکہ مکرمہ', 'https://cdn.mp3quran.net/audio/saud-shuraim/r1/', 'https://server7.mp3quran.net/shur/'],
+    ['maher', 'ماہر المعیقلی', 'امامِ حرم، مکہ مکرمہ', 'https://cdn.mp3quran.net/audio/maher-muaiqly/r1/', 'https://server12.mp3quran.net/maher/'],
+    ['basit', 'عبدالباسط عبدالصمد', 'مصر، مرتل', 'https://cdn.mp3quran.net/audio/abdulbasit-abdulsamad/r3/', 'https://server7.mp3quran.net/basit/'],
+    ['husary', 'محمود خلیل الحصری', 'مصر، تعلیمی تلاوت', 'https://cdn.mp3quran.net/audio/mahmoud-husary/r1/', 'https://server13.mp3quran.net/husr/'],
+    ['minshawi', 'محمد صدیق المنشاوی', 'مصر، مرتل', 'https://cdn.mp3quran.net/audio/muhammad-minshawi/r1/', 'https://server10.mp3quran.net/minsh/']
+  ];
+  var AU = { n: 0, rec: store.get('rec', 0), el: null, bar: null, sheet: null, seeking: false };
+  function pad3(n) { return ('00' + n).slice(-3); }
+  function fmtT(t) { t = Math.floor(t || 0); var m = Math.floor(t / 60), s = t % 60; return nu(m) + ':' + nu(('0' + s).slice(-2)); }
+  function auEnsure() {
+    if (AU.el) return;
+    AU.el = new Audio(); AU.el.preload = 'none'; AU.el.referrerPolicy = 'no-referrer';
+    AU.bar = h('div', { class: 'aubar', role: 'region', 'aria-label': 'تلاوت پلیئر', hidden: true });
+    document.body.appendChild(AU.bar);
+    AU.el.addEventListener('timeupdate', auTick);
+    AU.el.addEventListener('loadedmetadata', auTick);
+    AU.el.addEventListener('play', auDraw);
+    AU.el.addEventListener('pause', auDraw);
+    AU.el.addEventListener('waiting', function () { AU.wait = true; auDraw(); });
+    AU.el.addEventListener('playing', function () { AU.wait = false; auDraw(); });
+    AU.el.addEventListener('ended', function () { if (AU.n < 114) auPlay(AU.n + 1, AU.rec); else auDraw(); });
+    AU.el.addEventListener('error', function () {
+      if (AU.n && AU.try === 0 && RECITERS[AU.rec][4]) { AU.try = 1; AU.el.src = RECITERS[AU.rec][4] + pad3(AU.n) + '.mp3'; var q = AU.el.play(); if (q && q.catch) q.catch(function () {}); return; }
+      AU.wait = false; toast('آڈیو لوڈ نہیں ہو سکی۔ انٹرنیٹ چیک کریں یا کوئی اور قاری چنیں۔'); auDraw(); });
+  }
+  function auPlay(n, rec) {
+    auEnsure();
+    AU.n = n; AU.rec = rec; store.set('rec', rec);
+    AU.try = 0;
+    AU.el.src = RECITERS[rec][3] + pad3(n) + '.mp3';
+    AU.wait = true; auDraw();
+    var p = AU.el.play(); if (p && p.catch) p.catch(function () { /* error event reports */ });
+    try {
+      if ('mediaSession' in navigator) navigator.mediaSession.metadata = new MediaMetadata({ title: 'سورۃ ' + sname(n), artist: RECITERS[rec][1], album: 'حق الیقین انسٹیٹیوٹ' });
+    } catch (e) { /* ignore */ }
+  }
+  function auTick() {
+    if (!AU.bar || AU.seeking) return;
+    var r = AU.bar.querySelector('input[type=range]'), t = AU.bar.querySelector('.aut');
+    var d = AU.el.duration || 0;
+    if (r) { r.max = String(d || 0); r.value = String(AU.el.currentTime || 0); }
+    if (t) t.textContent = fmtT(AU.el.currentTime) + ' / ' + fmtT(d);
+  }
+  function auDraw() {
+    if (!AU.bar) return;
+    AU.bar.hidden = !AU.n;
+    document.body.classList.toggle('has-aubar', !!AU.n);
+    AU.bar.textContent = '';
+    var playing = !AU.el.paused;
+    var range = h('input', { type: 'range', min: '0', max: '0', step: '1', value: '0', 'aria-label': 'تلاوت میں آگے پیچھے' });
+    range.addEventListener('input', function () { AU.seeking = true; });
+    range.addEventListener('change', function () { AU.el.currentTime = Number(range.value); AU.seeking = false; auTick(); });
+    AU.bar.appendChild(h('div', { class: 'au-top' },
+      h('div', { class: 'au-info' }, h('strong', null, 'سورۃ ' + sname(AU.n)), h('span', null, RECITERS[AU.rec][1] + (AU.wait ? ' · لوڈ ہو رہی ہے…' : ''))),
+      h('button', { class: 'au-x', 'aria-label': 'بند کریں', onclick: function () { AU.el.pause(); AU.el.removeAttribute('src'); AU.el.load(); AU.n = 0; auDraw(); } }, icon('close', 18))));
+    AU.bar.appendChild(h('div', { class: 'au-ctl' },
+      h('button', { class: 'au-b', 'aria-label': 'اگلی سورت', disabled: AU.n >= 114, onclick: function () { auPlay(AU.n + 1, AU.rec); } }, '⏮'),
+      h('button', { class: 'au-b main', 'aria-label': playing ? 'روکیں' : 'چلائیں', onclick: function () { if (AU.el.paused) AU.el.play(); else AU.el.pause(); } }, playing ? '⏸' : '▶'),
+      h('button', { class: 'au-b', 'aria-label': 'پچھلی سورت', disabled: AU.n <= 1, onclick: function () { auPlay(AU.n - 1, AU.rec); } }, '⏭'),
+      range, h('span', { class: 'aut' }, '٠:٠٠ / ٠:٠٠'),
+      h('button', { class: 'au-q', onclick: function () { auSheet(AU.n); } }, 'قاری بدلیں')));
+    auTick();
+  }
+  function auSheet(n) {
+    if (AU.sheet) { AU.sheet.remove(); AU.sheet = null; }
+    function close() { if (AU.sheet) { AU.sheet.remove(); AU.sheet = null; } document.removeEventListener('keydown', onKey); }
+    function onKey(e) { if (e.key === 'Escape') close(); }
+    document.addEventListener('keydown', onKey);
+    var box = h('div', { class: 'ausheet', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'قاری چنیں' },
+      h('div', { class: 'ash-h' }, h('div', null, h('strong', null, 'سورۃ ' + sname(n) + ' سنیں'), h('span', null, 'اپنا پسندیدہ قاری چنیں')),
+        h('button', { class: 'au-x', 'aria-label': 'بند کریں', onclick: close }, icon('close', 18))),
+      h('div', { class: 'ash-l' }, RECITERS.map(function (r, i) {
+        var cur = AU.n === n && AU.rec === i;
+        return h('button', { class: 'ash-i' + (cur ? ' on' : ''), onclick: function () { close(); if (!(AU.n === n && AU.rec === i && !AU.el.paused)) auPlay(n, i); } },
+          h('span', { class: 'ash-p' }, cur ? '♪' : '▶'),
+          h('span', { class: 'ash-t' }, h('strong', { lang: 'ar' }, r[1]), h('em', null, r[2])));
+      })),
+      h('p', { class: 'ash-n' }, 'تلاوت انٹرنیٹ سے چلتی ہے، ڈیٹا خرچ ہو سکتا ہے۔'));
+    AU.sheet = h('div', { class: 'ausheet-bg', onclick: function (e) { if (e.target === AU.sheet) close(); } }, box);
+    document.body.appendChild(AU.sheet);
+    var first = box.querySelector('.ash-i'); if (first) first.focus();
+  }
+  function listenBtn(n, cls) {
+    if (!AUDIO_ON) return null;
+    return h('button', { class: cls || 'listen-b', 'aria-label': 'سورۃ ' + sname(n) + ' سنیں', onclick: function (e) { e.stopPropagation(); auSheet(n); } }, icon('lectures', 18), cls ? 'تلاوت سنیں' : null);
+  }
+
+  function readerView(n) {
+    store.set('last', { id: n, a: (store.get('last', {}).id === n ? store.get('last', {}).a : 0) });
+    markDay();
+    var m = qm(n);
+    var w = wrapEl(backBtn('تمام سورتیں', function () { go('quran'); }));
+    w.appendChild(h('div', { class: 'surah-title' },
+      h('div', { class: 'ar', lang: 'ar' }, m[1]),
+      h('h1', { style: 'font-size:1.5rem' }, 'سورۃ ' + sname(n)),
+      h('div', { class: 'meta ui', style: 'color:var(--muted);font-size:.88rem' }, [m[2], m[3], nu(m[4]) + ' آیات', 'سورت نمبر ' + nu(n)].join(' · ')),
+      n !== 1 && n !== 9 ? h('div', { class: 'bism', lang: 'ar' }, 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ') : null));
+    if (AUDIO_ON) w.appendChild(h('div', { class: 'listen-row' }, listenBtn(n, 'btn listen-main')));
+    if (D.qintro[n]) w.appendChild(h('div', { class: 'intro' }, D.qintro[n]));
+    var list = h('div', { class: 'ayat' });
+    var bar = h('div', { class: 'reader-bar' });
+    function setPref() { store.set('rd', readerPrefs); var y = window.scrollY; render(); window.scrollTo(0, y); }
+    var jump = h('input', { class: 'jump', type: 'number', min: '1', max: String(m[4]), placeholder: 'آیت', id: 'jump-ayah', 'aria-label': 'آیت نمبر پر جائیں' });
+    function doJump() { var v = parseInt(jump.value, 10); if (v >= 1 && v <= m[4]) scrollToAyah(v - 1); else toast('آیت نمبر ۱ سے ' + nu(m[4]) + ' کے درمیان لکھیں'); }
+    jump.addEventListener('keydown', function (e) { if (e.key === 'Enter') doJump(); });
+    bar.appendChild(h('button', { class: 't', 'aria-label': 'عربی چھوٹی کریں', onclick: function () { readerPrefs.size = Math.max(22, readerPrefs.size - 4); setPref(); } }, 'A−'));
+    bar.appendChild(h('button', { class: 't', 'aria-label': 'عربی بڑی کریں', onclick: function () { readerPrefs.size = Math.min(64, readerPrefs.size + 4); setPref(); } }, 'A+'));
+    bar.appendChild(h('span', { class: 'sp' }));
+    [['ju', 'جوناگڑھی'], ['mh', 'شیخ الہند'], ['', 'صرف عربی']].forEach(function (t) {
+      bar.appendChild(h('button', { class: 't', 'aria-pressed': String(readerPrefs.tr === t[0]), onclick: function () { readerPrefs.tr = t[0]; setPref(); } }, t[1]));
+    });
+    bar.appendChild(h('button', { class: 't', 'aria-pressed': String(readerPrefs.fn), onclick: function () { readerPrefs.fn = !readerPrefs.fn; setPref(); } }, 'حواشی'));
+    bar.appendChild(h('span', { class: 'jumpbox' }, jump, h('button', { class: 't', onclick: doJump }, 'جائیں')));
+    w.appendChild(bar);
+    w.appendChild(list);
+    var pager = h('div', { class: 'pager ui' });
+    pager.appendChild(n > 1 ? h('button', { class: 'btn soft', onclick: function () { go('quran', String(n - 1)); } }, 'پچھلی: ' + sname(n - 1)) : h('span'));
+    if (n < 114) pager.appendChild(h('button', { class: 'btn soft', onclick: function () { go('quran', String(n + 1)); } }, 'اگلی: ' + sname(n + 1)));
+    w.appendChild(pager);
+
+    function fill(d) {
+      list.textContent = '';
+      var bms = store.get('bm', []);
+      var notes = store.get('notes', {});
+      d.a.forEach(function (text, i) {
+        var key = n + ':' + i;
+        var on = bms.some(function (b) { return b.id === n && b.a === i; });
+        var tr = readerPrefs.tr ? d[readerPrefs.tr === 'ju' ? 'j' : 'm'][i] : '';
+        var fnote = readerPrefs.tr === 'ju' && readerPrefs.fn && d.f[i];
+        var mynote = notes[key];
+        var mine = D.qnotes[n + ':' + (i + 1)];
+        list.appendChild(h('article', { class: 'ayah' + (S.focus === i ? ' focus' : ''), id: 'ay-' + i, 'data-i': i },
+          h('div', { class: 'ayah-top' },
+            h('span', { class: 'ayah-no' }, 'آیت ' + nu(i + 1)),
+            h('span', { class: 'ayah-tools' },
+              h('button', { class: 'bm', 'aria-label': 'آیت کاپی کریں', onclick: function () { copyText(text + '\n' + (d.m[i] || '') + '\n(سورۃ ' + sname(n) + '، آیت ' + nu(i + 1) + ')'); } }, icon('copy', 19)),
+              h('button', { class: 'bm', 'aria-pressed': String(openNote === key || !!mynote), 'aria-label': 'ذاتی نوٹ', onclick: function () { openNote = openNote === key ? null : key; var y = window.scrollY; fill(d); window.scrollTo(0, y); } }, icon('note', 19)),
+              h('button', {
+                class: 'bm', 'aria-pressed': String(on), 'aria-label': on ? 'بک مارک ہٹائیں' : 'بک مارک لگائیں',
+                onclick: function () {
+                  var cur = store.get('bm', []);
+                  var has = cur.some(function (b) { return b.id === n && b.a === i; });
+                  cur = has ? cur.filter(function (b) { return !(b.id === n && b.a === i); }) : cur.concat([{ id: n, a: i }]);
+                  store.set('bm', cur);
+                  toast(has ? 'بک مارک ہٹا دیا گیا' : 'بک مارک محفوظ ہو گیا');
+                  var y = window.scrollY; fill(d); window.scrollTo(0, y);
+                }
+              }, icon('bookmark', 19)))),
+          h('p', { class: 'ar', lang: 'ar', style: 'font-size:' + readerPrefs.size + 'px' }, text),
+          tr ? h('p', { class: 'ur' }, readerPrefs.tr === 'ju' ? withMarkers(tr) : tr) : null,
+          fnote ? h('details', { class: 'fn' }, h('summary', null, 'حاشیہ'), h('div', { class: 'fn-body' }, fnote)) : null,
+          mine ? h('div', { class: 'tafsir' }, h('span', { class: 'tafsir-l' }, 'مختصر نکتہ'), h('p', null, mine)) : null,
+          openNote === key ? noteEditor(key, d) : (mynote ? h('div', { class: 'mynote' }, h('span', { class: 'tafsir-l' }, 'میرا نوٹ'), h('p', null, mynote)) : null)));
+      });
+      if (S.focus != null) scrollToAyah(S.focus);
+    }
+    function noteEditor(key, d) {
+      var notes = store.get('notes', {});
+      var ta = h('textarea', { class: 'note-ta', id: 'note-' + key.replace(':', '-'), rows: 3, placeholder: 'اس آیت کے بارے میں اپنا نوٹ لکھیں (صرف آپ کے اس براؤزر میں محفوظ ہوتا ہے)', value: notes[key] || '' });
+      return h('div', { class: 'mynote' }, ta, h('div', { class: 'row-actions ui', style: 'margin-top:6px' },
+        h('button', { class: 'btn sm', onclick: function () { var c = store.get('notes', {}); var v = ta.value.trim(); if (v) c[key] = v; else delete c[key]; store.set('notes', c); openNote = null; toast('نوٹ محفوظ ہو گیا'); var y = window.scrollY; fill(d); window.scrollTo(0, y); } }, 'محفوظ کریں'),
+        h('button', { class: 'btn sm soft', onclick: function () { openNote = null; var y = window.scrollY; fill(d); window.scrollTo(0, y); } }, 'بند کریں')));
+    }
+    if (qCache[n]) fill(qCache[n]);
+    else {
+      list.appendChild(h('p', { class: 'note' }, 'سورت لوڈ ہو رہی ہے…'));
+      loadQ(n).then(function (d) { if (S.page === 'quran' && S.id === String(n)) fill(d); }).catch(function (err) { try { console.error('reader', err && err.stack || err); } catch (x) {}
+        list.textContent = '';
+        list.appendChild(emptyBox('سورت لوڈ نہیں ہو سکی۔ انٹرنیٹ چیک کر کے دوبارہ کوشش کریں۔', 'quran', 'دوبارہ کوشش کریں', function () { render(); }));
+      });
+    }
+    if (scrollHandler) window.removeEventListener('scroll', scrollHandler);
+    var ticking = false;
+    scrollHandler = function () {
+      if (S.page !== 'quran' || !S.id) return;
+      if (ticking) return; ticking = true;
+      requestAnimationFrame(function () {
+        ticking = false;
+        var els = document.querySelectorAll('.ayah');
+        for (var k = 0; k < els.length; k++) {
+          if (els[k].getBoundingClientRect().top > 130) { store.set('last', { id: n, a: parseInt(els[k].getAttribute('data-i'), 10) }); break; }
+        }
+      });
+    };
+    window.addEventListener('scroll', scrollHandler, { passive: true });
+    return w;
+  }
+
+  /* ---------- generic sections (builtin + custom) ---------- */
+  function pageSection() {
+    var c = ctxFor(S.page);
+    if (!c) return wrapEl(emptyBox('یہ سیکشن موجود نہیں۔', 'folder'));
+    var items = pub(c.arr);
+    if (S.id) {
+      var it = items.find(function (x) { return x.id === S.id; });
+      if (it) {
+        if (c.kind === 'lectures') return lectureView(it, c);
+        if (c.kind === 'stories') return storyView(it, c, items);
+        if (c.kind === 'articles') return articleView(it, c);
+        if (c.kind === 'quizzes' && it.qs && it.qs.length) {
+          if (!Q || Q.qz !== it) Q = { qz: it, qs: shuffle(it.qs), i: 0, picks: [], score: 0 };
+          return quizView(c);
+        }
+      }
+    }
+    var w = wrapEl(pageHead(c.title, c.desc));
+    if (!items.length) {
+      w.appendChild(emptyBox('اس حصے میں مواد جلد شامل کیا جائے گا۔ ان شاء اللہ۔', c.kind === 'quizzes' ? 'quizzes' : c.kind, canAdmin() ? 'مواد شامل کریں' : null, function () { A.tab = c.key; A.edit = blank(schemaForTab(c.key)); A.isNew = true; A.txt = {}; go('admin'); }));
+      return w;
+    }
+    if (c.kind === 'lectures' || c.kind === 'articles') {
+      var cats = [];
+      items.forEach(function (x) { if (x.cat && cats.indexOf(x.cat) < 0) cats.push(x.cat); });
+      if (cats.length > 1) w.appendChild(chipRow([['', 'سب']].concat(cats.map(function (x) { return [x, x]; })), S.filter, function (v) { S.filter = v; render(); }));
+    }
+    var shown = items.filter(function (x) { return !S.filter || x.cat === S.filter; });
+    if (c.kind === 'lectures') {
+      w.appendChild(h('div', { class: 'grid' }, shown.map(function (x) {
+        return h('button', { class: 'card', onclick: function () { go(c.key, x.id); } },
+          h('span', { class: 'ico' }, icon(x.kind === 'pdf' ? 'file' : x.kind === 'link' ? 'link' : 'lectures', 22)),
+          h('h3', null, x.title),
+          h('span', { class: 'meta' }, [x.speaker, x.date].filter(Boolean).join(' · ')),
+          x.cat ? h('span', null, h('span', { class: 'cat-tag' }, x.cat)) : null);
+      })));
+    } else if (c.kind === 'stories') {
+      w.appendChild(h('div', { class: 'grid' }, shown.map(function (s) { return storyCard(s, c.key); })));
+    } else if (c.kind === 'articles') {
+      shown.forEach(function (x) { w.appendChild(articleRow(x, c.key)); });
+    } else {
+      var best = store.get('best', {});
+      w.appendChild(h('div', { class: 'grid' }, shown.map(function (z) {
+        return h('button', { class: 'card', onclick: function () { go(c.key, z.id); } },
+          h('span', { class: 'ico' }, icon('quizzes', 22)),
+          h('h3', null, z.title),
+          h('p', { class: 'txt' }, z.desc),
+          h('span', { class: 'meta' }, nu(z.qs.length) + ' سوالات' + (best[z.id] != null ? ' · بہترین نتیجہ: ' + nu(best[z.id]) + '/' + nu(z.qs.length) : '')));
+      })));
+    }
+    return w;
+  }
+  function lectureView(l, c) {
+    var w = wrapEl(backBtn(c.title, function () { go(c.key); }));
+    var body = h('div', { class: 'read' }, h('h1', null, l.title),
+      h('div', { class: 'meta' }, l.cat ? h('span', { class: 'cat-tag' }, l.cat) : null, l.speaker ? h('span', null, l.speaker) : null, l.date ? h('span', null, l.date) : null));
+    if (l.kind === 'video' && l.asset) {
+      body.appendChild(h('div', { class: 'media' }, h('video', { controls: true, preload: 'metadata', playsinline: true, src: assetUrl(l.asset) })));
+    } else if (l.kind === 'audio' && l.asset) {
+      body.appendChild(h('div', { class: 'media' }, h('audio', { controls: true, preload: 'metadata', src: assetUrl(l.asset), style: 'width:100%' })));
+    } else if (l.kind === 'image' && l.asset) {
+      body.appendChild(h('div', { class: 'media' }, h('img', { src: assetUrl(l.asset), alt: l.title, style: 'width:100%;height:auto;border-radius:12px' })));
+    } else if (l.kind === 'pdf' && l.asset) {
+      body.appendChild(h('a', { class: 'btn ui', href: assetUrl(l.asset), target: '_blank', rel: 'noopener' }, icon('file', 18), 'پی ڈی ایف کھولیں'));
+    } else if (l.kind === 'link' && safeUrl(l.url)) {
+      body.appendChild(h('a', { class: 'btn ui', href: safeUrl(l.url), target: '_blank', rel: 'noopener noreferrer' }, icon('link', 18), 'لیکچر دیکھیں'));
+    } else {
+      body.appendChild(h('p', { class: 'note' }, 'اس لیکچر کی فائل ابھی دستیاب نہیں۔'));
+    }
+    if (l.desc) body.appendChild(h('div', { style: 'margin-top:16px' }, paras(l.desc)));
+    w.appendChild(body);
+    return w;
+  }
+  function storyCard(s, key) {
+    return h('button', { class: 'card', onclick: function () { go(key, s.id); } },
+      h('span', { class: 'ico' }, icon('stories', 22)),
+      h('h3', null, s.title),
+      h('p', { class: 'txt' }, s.sub),
+      s.ref ? h('span', { class: 'meta' }, 'حوالہ: ' + s.ref) : null);
+  }
+  function storyView(s, c, items) {
+    var idx = items.indexOf(s);
+    var w = wrapEl(backBtn(c.title, function () { go(c.key); }));
+    var r = h('article', { class: 'read' }, h('h1', null, s.title),
+      h('div', { class: 'meta' }, s.sub ? h('span', { class: 'tagline' }, s.sub) : null, s.ref ? h('span', null, 'حوالہ: ' + s.ref) : null, h('span', null, nu(readMin(s.body)) + ' منٹ کا مطالعہ')),
+      paras(s.body));
+    if (s.lessons && s.lessons.length) r.appendChild(h('div', { class: 'lessons' }, h('h3', null, 'اس قصے سے سبق'), h('ul', null, s.lessons.map(function (x) { return h('li', null, x); }))));
+    w.appendChild(r);
+    var pager = h('div', { class: 'pager ui' });
+    pager.appendChild(items[idx - 1] ? h('button', { class: 'btn soft', onclick: function () { go(c.key, items[idx - 1].id); } }, 'پچھلا قصہ') : h('span'));
+    if (items[idx + 1]) pager.appendChild(h('button', { class: 'btn soft', onclick: function () { go(c.key, items[idx + 1].id); } }, 'اگلا قصہ'));
+    w.appendChild(pager);
+    return w;
+  }
+  function articleRow(a, key) {
+    return h('button', { class: 'list-row', onclick: function () { go(key, a.id); } },
+      h('div', null, h('h3', { style: 'font-size:1.1rem' }, a.title), h('div', { class: 'meta' }, [a.author, nu(readMin(a.body)) + ' منٹ'].filter(Boolean).join(' · '))),
+      a.cat ? h('span', { class: 'cat-tag' }, a.cat) : null);
+  }
+  function articleView(a, c) {
+    var w = wrapEl(backBtn(c.title, function () { go(c.key); }));
+    w.appendChild(h('article', { class: 'read' }, h('h1', null, a.title),
+      h('div', { class: 'meta' }, a.cat ? h('span', { class: 'tagline' }, a.cat) : null, a.author ? h('span', null, a.author) : null, a.date ? h('span', null, a.date) : null, h('span', null, nu(readMin(a.body)) + ' منٹ کا مطالعہ')),
+      paras(a.body)));
+    return w;
+  }
+  function quizView(c) {
+    var qz = Q.qz;
+    var w = wrapEl(backBtn(c.title, function () { go(c.key); }));
+    if (Q.i >= Q.qs.length) {
+      var best = store.get('best', {});
+      if (best[qz.id] == null || Q.score > best[qz.id]) { best[qz.id] = Q.score; store.set('best', best); }
+      var ratio = Q.score / Q.qs.length;
+      var msg = ratio === 1 ? 'ماشاء اللہ! بالکل درست جوابات۔' : ratio >= 0.6 ? 'بہت خوب! آپ نے اچھی کوشش کی۔' : 'کوئی بات نہیں، دوبارہ کوشش کریں اور مواد پڑھ کر آئیں۔';
+      w.appendChild(h('div', { class: 'q-card score' },
+        h('div', { class: 'meta ui', style: 'color:var(--muted)' }, qz.title),
+        h('div', { class: 'big' }, nu(Q.score) + '/' + nu(Q.qs.length)),
+        h('p', null, msg),
+        h('div', { class: 'row-actions ui', style: 'justify-content:center;margin-top:12px' },
+          h('button', { class: 'btn', onclick: function () { Q = { qz: qz, qs: shuffle(qz.qs), i: 0, picks: [], score: 0 }; render(); window.scrollTo(0, 0); } }, 'دوبارہ کھیلیں'),
+          h('button', { class: 'btn soft', onclick: function () { go(c.key); } }, 'دوسرے کوئز'))));
+      return w;
+    }
+    var q = Q.qs[Q.i];
+    var picked = Q.picks[Q.i];
+    var answered = picked != null;
+    w.appendChild(h('div', { class: 'meta ui', style: 'margin-top:14px;color:var(--muted)' }, qz.title + ' · سوال ' + nu(Q.i + 1) + ' از ' + nu(Q.qs.length)));
+    w.appendChild(h('div', { class: 'progress', role: 'progressbar', 'aria-valuemin': '0', 'aria-valuemax': String(Q.qs.length), 'aria-valuenow': String(Q.i + (answered ? 1 : 0)) }, h('i', { style: 'width:' + ((Q.i + (answered ? 1 : 0)) / Q.qs.length * 100) + '%' })));
+    var opts = h('div', { class: 'opts' });
+    q.opts.forEach(function (o, i) {
+      var cls = 'opt', verdict = null;
+      if (answered) {
+        if (i === q.a) { cls += ' right'; verdict = 'درست'; } else if (i === picked) { cls += ' wrong'; verdict = 'غلط'; }
+      }
+      opts.appendChild(h('button', { class: cls, disabled: answered, onclick: function () { Q.picks[Q.i] = i; if (i === q.a) Q.score++; render(); } },
+        h('span', null, o), verdict ? h('span', { class: 'verdict' }, verdict) : null));
+    });
+    var card = h('div', { class: 'q-card' }, h('h2', null, q.q), opts);
+    if (answered) {
+      if (q.why) card.appendChild(h('div', { class: 'why' }, q.why));
+      card.appendChild(h('div', { class: 'row-actions ui', style: 'margin-top:14px' },
+        h('button', { class: 'btn', onclick: function () { Q.i++; render(); window.scrollTo(0, 0); } }, Q.i + 1 >= Q.qs.length ? 'نتیجہ دیکھیں' : 'اگلا سوال')));
+    }
+    w.appendChild(card);
+    return w;
+  }
+
+  /* ---------- tasbeeh ---------- */
+  function pageTasbeeh() {
+    var st = store.get('tasbeeh', { i: 0, count: 0, target: 33, total: 0 });
+    var w = wrapEl(pageHead('ذکر و تسبیح', 'اپنا ذکر منتخب کریں، ہدف رکھیں اور گنتی شروع کریں۔ گنتی آپ کے براؤزر میں محفوظ رہتی ہے۔'));
+    var dh = DHIKR[st.i] || DHIKR[0];
+    var countEl = h('div', { class: 'tc-count' }, nu(st.count));
+    var info = h('div', { class: 'tc-info ui' });
+    var ring = h('div', { class: 'tc-ring' });
+    function update() {
+      countEl.textContent = nu(st.count);
+      var pct = st.target ? Math.min(100, st.count / st.target * 100) : 0;
+      ring.style.setProperty('--p', pct + '%');
+      info.textContent = (st.target ? 'ہدف: ' + nu(st.target) + ' · ' : 'کھلی گنتی · ') + 'کل آج تک: ' + nu(st.total);
+      store.set('tasbeeh', st);
+    }
+    var tap = h('button', {
+      class: 'tc-btn', 'aria-label': 'گنتی بڑھائیں',
+      onclick: function () {
+        st.count++; st.total++;
+        try { if (navigator.vibrate) navigator.vibrate(12); } catch (e) { /* ignore */ }
+        if (st.target && st.count === st.target) toast('ماشاء اللہ! آپ کا ہدف مکمل ہوا۔');
+        update();
+      }
+    }, countEl);
+    ring.appendChild(tap);
+    w.appendChild(h('div', { class: 'tc' },
+      h('div', { class: 'tc-dhikr ar', lang: 'ar' }, dh[0]),
+      ring, info,
+      h('div', { class: 'row-actions ui', style: 'justify-content:center' },
+        h('button', { class: 'btn soft', onclick: function () { st.count = 0; update(); } }, 'گنتی صفر کریں'),
+        h('button', { class: 'btn soft', onclick: function () { if (st.count > 0) { st.count--; st.total = Math.max(0, st.total - 1); update(); } } }, 'ایک کم کریں'))));
+    var pick = h('div', { class: 'chips', style: 'justify-content:center' }, DHIKR.map(function (x, i) {
+      return h('button', { class: 'chip', lang: 'ar', 'aria-pressed': String(st.i === i), onclick: function () { st.i = i; st.target = x[1]; st.count = 0; store.set('tasbeeh', st); render(); } }, x[0]);
+    }));
+    w.appendChild(pick);
+    w.appendChild(h('div', { class: 'chips ui', style: 'justify-content:center' }, [33, 99, 100, 0].map(function (t) {
+      return h('button', { class: 'chip', 'aria-pressed': String(st.target === t), onclick: function () { st.target = t; store.set('tasbeeh', st); render(); } }, t ? 'ہدف ' + nu(t) : 'بغیر ہدف');
+    })));
+    update();
+    return w;
+  }
+
+  /* ---------- search ---------- */
+  function openSearch() {
+    searchEl.hidden = false;
+    searchEl.textContent = '';
+    var input = h('input', { class: 'field-input', type: 'search', id: 'site-search', placeholder: 'سورت، قصے، مضامین، لیکچرز میں تلاش کریں', 'aria-label': 'تلاش' });
+    var res = h('div', { class: 'overlay-res' });
+    searchEl.appendChild(h('div', { class: 'overlay-box' },
+      h('div', { class: 'overlay-top' }, input, h('button', { class: 'icon-btn', 'aria-label': 'بند کریں', onclick: closeSearch }, icon('close'))), res));
+    function run() {
+      res.textContent = '';
+      var raw = input.value.trim();
+      var q = norm(raw);
+      if (q.length < 2) { res.appendChild(h('p', { class: 'note' }, 'کم از کم دو حروف لکھیں۔')); return; }
+      var hits = [];
+      function add(type, title, snippet, fn) { hits.push({ type: type, title: title, snippet: snippet, fn: fn }); }
+      D.qm.forEach(function (m) { if (norm(sname(m[0]) + ' ' + m[1] + ' ' + m[2]).indexOf(q) > -1) add('سورت', 'سورۃ ' + sname(m[0]), m[2], function () { go('quran', String(m[0])); }); });
+      navItems().forEach(function () { /* nav only for context */ });
+      var all = [['lectures', D.lectures, 'لیکچر', 'lectures'], ['stories', D.stories, 'قصہ', 'stories'], ['articles', D.articles, 'مضمون', 'articles'], ['quizzes', D.quizzes, 'کوئز', 'quizzes']];
+      secs().forEach(function (s) { all.push(['sec-' + s.id, D.custom[s.id] || [], s.name, s.kind]); });
+      all.forEach(function (g) {
+        pub(g[1]).forEach(function (x) {
+          if (norm([x.title, x.sub, x.cat, x.speaker, x.desc, x.body].join(' ')).indexOf(q) > -1) add(g[2], x.title, x.sub || x.cat || x.speaker || x.desc || '', function () { go(g[0], x.id); });
+        });
+      });
+      hits.slice(0, 30).forEach(function (x) {
+        res.appendChild(h('button', { class: 'res', onclick: function () { closeSearch(); x.fn(); } },
+          h('span', { class: 't' }, h('span', { class: 'cat-tag', style: 'margin-inline-end:8px' }, x.type), x.title),
+          x.snippet ? h('span', { class: 's' }, String(x.snippet).slice(0, 100)) : null));
+      });
+      res.appendChild(h('button', { class: 'res', onclick: function () { closeSearch(); go('quran', null, { qtab: 'search', qq: raw }); } },
+        h('span', { class: 't' }, h('span', { class: 'cat-tag', style: 'margin-inline-end:8px' }, 'قرآن'), 'آیات میں تلاش کریں: «' + raw + '»'),
+        h('span', { class: 's' }, 'اردو ترجمہ اور عربی متن میں')));
+    }
+    input.addEventListener('input', run);
+    run();
+    input.focus();
+  }
+  function closeSearch() { searchEl.hidden = true; searchEl.textContent = ''; }
+
+  /* ---------- admin ---------- */
+  var HIDE = { k: 'hidden', l: 'مسودہ: عوام سے چھپا کر رکھیں', t: 'check' };
+  var SCHEMA = {
+    lectures: {
+      one: 'لیکچر', prefix: 'l', title: 'title', sub: function (i) { return [i.speaker, i.cat].filter(Boolean).join(' · '); },
+      fields: [
+        { k: 'title', l: 'عنوان', t: 'text' },
+        { k: 'speaker', l: 'مقررہ / استاد کا نام', t: 'text' },
+        { k: 'cat', l: 'زمرہ (مثلاً تفسیر، سیرت، فقہ)', t: 'text' },
+        { k: 'date', l: 'تاریخ', t: 'text' },
+        { k: 'kind', l: 'لیکچر کی قسم', t: 'select', opts: [['video', 'ویڈیو فائل'], ['audio', 'آڈیو فائل (mp3 وغیرہ)'], ['image', 'تصویر'], ['pdf', 'پی ڈی ایف نوٹس'], ['link', 'باہر کا لنک (یوٹیوب وغیرہ)']] },
+        { k: 'asset', l: 'فائل اپلوڈ کریں', t: 'file', hint: 'mp4، m4a، webm یا pdf۔ سائز 20 ایم بی تک۔\nmp3 ہو تو پہلے اسے mp4 یا m4a میں بدل لیں۔' },
+        { k: 'url', l: 'لنک (صرف جب قسم "باہر کا لنک" ہو)', t: 'text', hint: 'https:// سے شروع ہونے والا مکمل لنک' },
+        { k: 'desc', l: 'تفصیل', t: 'area' }, HIDE
+      ]
+    },
+    stories: {
+      one: 'قصہ', prefix: 'p', title: 'title', sub: function (i) { return i.sub || ''; },
+      fields: [
+        { k: 'title', l: 'عنوان', t: 'text' },
+        { k: 'sub', l: 'ذیلی عنوان', t: 'text' },
+        { k: 'ref', l: 'قرآنی حوالہ', t: 'text' },
+        { k: 'body', l: 'قصہ', t: 'area', big: true, hint: 'ہر پیراگراف کے درمیان ایک خالی سطر چھوڑیں۔' },
+        { k: 'lessons', l: 'سبق', t: 'lines', hint: 'ہر سبق الگ سطر میں۔' }, HIDE
+      ]
+    },
+    articles: {
+      one: 'مضمون', prefix: 'a', title: 'title', sub: function (i) { return i.cat || ''; },
+      fields: [
+        { k: 'title', l: 'عنوان', t: 'text' },
+        { k: 'cat', l: 'زمرہ', t: 'text' },
+        { k: 'author', l: 'مصنفہ', t: 'text' },
+        { k: 'date', l: 'تاریخ', t: 'text' },
+        { k: 'body', l: 'مضمون', t: 'area', big: true, hint: 'ہر پیراگراف کے درمیان ایک خالی سطر چھوڑیں۔' }, HIDE
+      ]
+    },
+    quizzes: {
+      one: 'کوئز', prefix: 'q', title: 'title', sub: function (i) { return nu((i.qs || []).length) + ' سوالات'; },
+      fields: [
+        { k: 'title', l: 'کوئز کا نام', t: 'text' },
+        { k: 'desc', l: 'مختصر تعارف', t: 'text' },
+        { k: 'qs', l: 'سوالات', t: 'qs', hint: 'ہر سوال ایک بلاک، بلاکوں کے درمیان خالی سطر۔\nپہلی سطر سوال، پھر ہر سطر ایک جواب۔ صحیح جواب سے پہلے * لگائیں۔\n# سے شروع ہونے والی سطر میں وضاحت لکھیں۔' }, HIDE
+      ]
+    }
+  };
+  var BUILTIN_TABS = ['lectures', 'stories', 'articles', 'quizzes'];
+  var BUILTIN_LABEL = { lectures: 'لیکچرز', stories: 'قصے', articles: 'مضامین', quizzes: 'کوئز' };
+  function schemaForTab(tab) {
+    if (tab.indexOf('sec-') === 0) { var s = secById(tab.slice(4)); return s ? s.kind : 'articles'; }
+    return tab;
+  }
+  function arrForTab(tab) {
+    if (tab.indexOf('sec-') === 0) { var id = tab.slice(4); D.custom[id] = D.custom[id] || []; return D.custom[id]; }
+    return D[tab];
+  }
+  function tabLabel(tab) {
+    if (tab.indexOf('sec-') === 0) { var s = secById(tab.slice(4)); return s ? s.name : '؟'; }
+    return { sections: '+ نیا سیکشن', site: 'سائٹ کی معلومات', access: 'رسائی', backup: 'بیک اپ', github: 'GitHub سیٹنگ' }[tab] || BUILTIN_LABEL[tab];
+  }
+  function blank(kind) {
+    var sc = SCHEMA[kind];
+    var b = { id: uid(sc.prefix) };
+    sc.fields.forEach(function (f) {
+      if (f.t === 'qs') b.qs = [];
+      else if (f.t === 'lines') b[f.k] = [];
+      else if (f.t === 'check') b[f.k] = false;
+      else b[f.k] = f.k === 'kind' ? 'video' : '';
+    });
+    return b;
+  }
+  function toText(f, item) {
+    if (f.t === 'lines') return (item[f.k] || []).join('\n');
+    if (f.t === 'qs') return (item.qs || []).map(function (q) {
+      return [q.q].concat(q.opts.map(function (o, i) { return (i === q.a ? '*' : '') + o; })).concat(q.why ? ['# ' + q.why] : []).join('\n');
+    }).join('\n\n');
+    return '';
+  }
+  function fromText(f, text, item) {
+    if (f.t === 'lines') { item[f.k] = text.split('\n').map(function (x) { return x.trim(); }).filter(Boolean); return null; }
+    if (f.t === 'qs') {
+      var qs = [];
+      var blocks = text.split(/\n\s*\n/).map(function (b) { return b.trim(); }).filter(Boolean);
+      for (var b = 0; b < blocks.length; b++) {
+        var ls = blocks[b].split('\n').map(function (x) { return x.trim(); }).filter(Boolean);
+        var q = { q: ls.shift(), opts: [], a: -1, why: '' };
+        ls.forEach(function (l) {
+          if (l.charAt(0) === '#') q.why = l.slice(1).trim();
+          else if (l.charAt(0) === '*') { q.a = q.opts.length; q.opts.push(l.slice(1).trim()); } else q.opts.push(l);
+        });
+        if (q.opts.length < 2) return 'سوال ' + nu(b + 1) + ': کم از کم دو جواب لکھیں۔';
+        if (q.a < 0) return 'سوال ' + nu(b + 1) + ': صحیح جواب سے پہلے * لگائیں۔';
+        qs.push(q);
+      }
+      item.qs = qs; return null;
+    }
+    return null;
+  }
+  /* ---------- admin lock ---------- */
+  var unl = false;
+  try { unl = sessionStorage.getItem('hy:unl') === '1'; } catch (e) { /* ignore */ }
+  var failState = { n: 0, until: 0 };
+  function unlocked() { return unl; }
+  function hexToBytes(hx) { var a = new Uint8Array(hx.length / 2); for (var i = 0; i < a.length; i++) a[i] = parseInt(hx.substr(i * 2, 2), 16); return a; }
+  function bytesToHex(b) { return Array.prototype.map.call(new Uint8Array(b), function (x) { return ('0' + x.toString(16)).slice(-2); }).join(''); }
+  function derive(pw, saltHex, iter) {
+    if (!(window.crypto && crypto.subtle)) return Promise.reject(new Error('nocrypto'));
+    return crypto.subtle.importKey('raw', new TextEncoder().encode(pw), 'PBKDF2', false, ['deriveBits']).then(function (k) {
+      return crypto.subtle.deriveBits({ name: 'PBKDF2', salt: hexToBytes(saltHex), iterations: iter, hash: 'SHA-256' }, k, 256);
+    }).then(bytesToHex);
+  }
+  function sameStr(a, b) { if (a.length !== b.length) return false; var r = 0; for (var i = 0; i < a.length; i++) r |= a.charCodeAt(i) ^ b.charCodeAt(i); return r === 0; }
+  function setUnlocked(v) {
+    unl = v;
+    try { if (v) sessionStorage.setItem('hy:unl', '1'); else sessionStorage.removeItem('hy:unl'); } catch (e) { /* ignore */ }
+  }
+  function lockScreen() {
+    var pw = h('input', { type: 'password', id: 'admin-pw', autocomplete: 'current-password', placeholder: 'پاس ورڈ لکھیں', 'aria-label': 'ایڈمن پاس ورڈ' });
+    var msg = h('div', { class: 'err', role: 'alert' });
+    var btn = h('button', { class: 'btn', type: 'submit' }, icon('check', 18), 'کھولیں');
+    var form = h('form', {
+      class: 'form lockbox', onsubmit: function (e) {
+        e.preventDefault();
+        var now = Date.now();
+        if (now < failState.until) { msg.textContent = 'بہت زیادہ غلط کوششیں۔ ' + nu(Math.ceil((failState.until - now) / 60000)) + ' منٹ بعد دوبارہ کوشش کریں۔'; return; }
+        if (!D.auth || !pw.value) { msg.textContent = 'پاس ورڈ لکھیں۔'; return; }
+        btn.disabled = true; msg.textContent = '';
+        derive(pw.value, D.auth.salt, D.auth.iter).then(function (hx) {
+          if (sameStr(hx, D.auth.hash)) { failState.n = 0; setUnlocked(true); render(); return; }
+          failState.n++;
+          if (failState.n >= 5) { failState.n = 0; failState.until = Date.now() + 5 * 60000; msg.textContent = 'پانچ غلط کوششیں ہو گئیں۔ پانچ منٹ انتظار کریں۔'; }
+          else msg.textContent = 'پاس ورڈ درست نہیں۔';
+          pw.value = ''; setTimeout(function () { btn.disabled = false; }, failState.n * 800);
+        }).catch(function () { msg.textContent = 'اس براؤزر میں پاس ورڈ کی جانچ ممکن نہیں۔ نیا براؤزر استعمال کریں۔'; btn.disabled = false; });
+      }
+    },
+      h('div', { class: 'lock-ico' }, icon('gear', 30)),
+      h('h2', { style: 'font-size:1.3rem;text-align:center' }, 'ایڈمن پینل بند ہے'),
+      h('p', { class: 'txt', style: 'text-align:center;color:var(--muted)' }, 'مواد شامل یا تبدیل کرنے کے لیے پاس ورڈ لکھیں۔'),
+      h('div', { class: 'fld' }, h('label', { for: 'admin-pw' }, 'پاس ورڈ'), pw),
+      msg, btn);
+    return form;
+  }
+  function changePasswordForm() {
+    var a = h('input', { type: 'password', id: 'np1', autocomplete: 'new-password' });
+    var b = h('input', { type: 'password', id: 'np2', autocomplete: 'new-password' });
+    var msg = h('div', { class: 'err', role: 'alert' });
+    return h('div', { class: 'form' },
+      h('h3', { style: 'font-size:1.15rem' }, 'پاس ورڈ بدلیں'),
+      h('div', { class: 'hint' }, 'کم از کم ۱۲ حروف رکھیں اور اسے کسی کے ساتھ شیئر نہ کریں۔ بدلنے کے بعد "شائع کریں" دبانا ضروری ہے۔'),
+      h('div', { class: 'fld' }, h('label', { for: 'np1' }, 'نیا پاس ورڈ'), a),
+      h('div', { class: 'fld' }, h('label', { for: 'np2' }, 'دوبارہ لکھیں'), b),
+      msg,
+      h('div', { class: 'row-actions ui' }, h('button', {
+        class: 'btn', type: 'button', onclick: function () {
+          if (a.value.length < 12) { msg.textContent = 'پاس ورڈ کم از کم ۱۲ حروف کا ہو۔'; return; }
+          if (a.value !== b.value) { msg.textContent = 'دونوں پاس ورڈ ایک جیسے نہیں۔'; return; }
+          var salt = new Uint8Array(16); crypto.getRandomValues(salt);
+          var saltHex = bytesToHex(salt), iter = 210000;
+          derive(a.value, saltHex, iter).then(function (hx) {
+            D.auth = { salt: saltHex, hash: hx, iter: iter }; dirty = true; a.value = ''; b.value = '';
+            msg.textContent = ''; toast('نیا پاس ورڈ محفوظ ہو گیا۔ اب "شائع کریں" دبائیں۔'); render();
+          }).catch(function () { msg.textContent = 'پاس ورڈ محفوظ نہیں ہو سکا۔'; });
+        }
+      }, 'پاس ورڈ بدلیں')));
+  }
+
+  function pageAdmin() {
+    var w = wrapEl(pageHead('ایڈمن پینل', 'یہاں سے لیکچرز، قصے، مضامین، کوئز اور اپنے نئے سیکشنز سنبھالیں۔ آخر میں "شائع کریں" دبائیں۔'));
+    if (!canAdmin()) {
+      w.appendChild(emptyBox('یہ حصہ صرف ویب سائٹ کی مالک اور ان لوگوں کے لیے ہے جنہیں انہوں نے ایڈیٹر کی اجازت دی ہو۔ اپنے اکاؤنٹ میں لاگ ان ہو کر یہ صفحہ کھولیں۔', 'gear'));
+      return w;
+    }
+    if (!unlocked()) { w.appendChild(lockScreen()); return w; }
+    w.appendChild(h('div', { class: 'admin-bar ui' + (dirty ? ' dirty' : '') },
+      h('span', { class: 'st' }, dirty ? 'آپ کی تبدیلیاں ابھی شائع نہیں ہوئیں۔' : 'تمام مواد شائع شدہ ہے۔'),
+      h('span', { class: 'row-actions' },
+        h('button', { class: 'btn soft', onclick: function () { setUnlocked(false); A.edit = null; render(); } }, 'لاک کریں'),
+        h('button', { class: 'btn', disabled: !dirty || A.busy, onclick: publish }, A.busy ? 'شائع ہو رہا ہے…' : 'ویب سائٹ پر شائع کریں'))));
+    var tabs = BUILTIN_TABS.concat(secs().map(function (s) { return 'sec-' + s.id; }), ['sections', 'site', 'access', 'backup'].concat(STATIC ? ['github'] : []));
+    w.appendChild(h('div', { class: 'chips', style: 'margin-top:16px' }, tabs.map(function (t) {
+      var cnt = ['sections', 'site', 'access', 'backup', 'github'].indexOf(t) > -1 ? '' : ' (' + nu(arrForTab(t).length) + ')';
+      return h('button', {
+        class: 'chip', 'aria-pressed': String(A.tab === t),
+        onclick: function () { A.tab = t; A.edit = null; A.del = null; A.err = ''; A.txt = {}; A.secEdit = null; render(); }
+      }, tabLabel(t) + cnt);
+    })));
+    var body = A.tab === 'sections' ? sectionsAdmin() : A.tab === 'site' ? siteForm() : A.tab === 'access' ? accessView() : A.tab === 'github' ? ghView() : A.tab === 'backup' ? backupView() : (A.edit ? editForm(A.tab) : listView(A.tab));
+    w.appendChild(body);
+    return w;
+  }
+  function listView(tab) {
+    var sc = SCHEMA[schemaForTab(tab)];
+    var kind = schemaForTab(tab);
+    var box = h('div');
+    box.appendChild(h('div', { class: 'row-actions ui', style: 'margin-bottom:12px' },
+      h('button', { class: 'btn', onclick: function () { A.edit = blank(kind); A.isNew = true; A.txt = {}; A.err = ''; render(); } }, '+ نیا ' + sc.one + ' شامل کریں')));
+    var arr = arrForTab(tab);
+    if (!arr.length) box.appendChild(h('p', { class: 'note' }, 'ابھی کوئی ' + sc.one + ' موجود نہیں۔ اوپر والے بٹن سے پہلا ' + sc.one + ' شامل کریں۔'));
+    arr.forEach(function (it, i) {
+      var confirming = A.del === it.id;
+      box.appendChild(h('div', { class: 'rowline' },
+        h('div', { class: 'main' }, h('b', null, it[sc.title] || '(بغیر عنوان)', it.hidden ? h('span', { class: 'cat-tag', style: 'margin-inline-start:8px;background:var(--rose-soft);color:var(--rose)' }, 'مسودہ') : null), h('span', null, sc.sub(it))),
+        h('div', { class: 'row-actions ui' },
+          confirming ? [
+            h('button', { class: 'btn sm danger', onclick: function () { arr.splice(i, 1); dirty = true; A.del = null; render(); } }, 'ہاں، حذف کریں'),
+            h('button', { class: 'btn sm soft', onclick: function () { A.del = null; render(); } }, 'رہنے دیں')
+          ] : [
+            h('button', { class: 'btn sm soft', 'aria-label': 'اوپر', disabled: i === 0, onclick: function () { arr.splice(i - 1, 0, arr.splice(i, 1)[0]); dirty = true; render(); } }, '↑'),
+            h('button', { class: 'btn sm soft', 'aria-label': 'نیچے', disabled: i === arr.length - 1, onclick: function () { arr.splice(i + 1, 0, arr.splice(i, 1)[0]); dirty = true; render(); } }, '↓'),
+            h('button', { class: 'btn sm soft', onclick: function () { it.hidden = !it.hidden; dirty = true; render(); } }, it.hidden ? 'ظاہر کریں' : 'چھپائیں'),
+            h('button', { class: 'btn sm soft', onclick: function () { A.edit = JSON.parse(JSON.stringify(it)); A.isNew = false; A.txt = {}; A.err = ''; render(); } }, 'ترمیم'),
+            h('button', { class: 'btn sm danger', onclick: function () { A.del = it.id; render(); } }, 'حذف')
+          ])));
+    });
+    return box;
+  }
+  function editForm(tab) {
+    var kind = schemaForTab(tab);
+    var sc = SCHEMA[kind];
+    var draft = A.edit;
+    var form = h('form', { class: 'form', onsubmit: function (e) { e.preventDefault(); } });
+    sc.fields.forEach(function (f) {
+      var id = 'f-' + kind + '-' + f.k;
+      var hint = f.hint ? h('div', { class: 'hint' }, f.hint) : null;
+      if (f.t === 'check') {
+        form.appendChild(h('div', { class: 'fld chk' }, h('input', { type: 'checkbox', id: id, checked: !!draft[f.k], onchange: function (e) { draft[f.k] = e.target.checked; } }), h('label', { for: id }, f.l)));
+      } else if (f.t === 'select') {
+        form.appendChild(h('div', { class: 'fld' }, h('label', { for: id }, f.l),
+          h('select', { id: id, value: draft[f.k] || f.opts[0][0], onchange: function (e) { draft[f.k] = e.target.value; } }, f.opts.map(function (o) { return h('option', { value: o[0] }, o[1]); }))));
+      } else if (f.t === 'file') {
+        var st = h('div', { class: 'hint', id: id + '-st' }, draft.asset ? 'فائل محفوظ ہے: ' + (draft.fname || draft.asset.slice(0, 8)) : 'ابھی کوئی فائل منتخب نہیں۔');
+        form.appendChild(h('div', { class: 'fld' }, h('label', { for: id }, f.l),
+          assetsApi ? h('input', { type: 'file', id: id, accept: STATIC ? '.mp4,.m4a,.webm,.mp3,.ogg,.wav,.aac,.jpg,.jpeg,.png,.webp,.gif,.pdf' : '.mp4,.m4a,.webm,.pdf', onchange: function (e) { uploadFile(e.target.files[0], draft, st); } })
+            : h('div', { class: 'hint' }, 'فائل اپلوڈ صرف شائع شدہ صفحے پر، ایڈیٹر کے اکاؤنٹ سے دستیاب ہے۔'),
+          st, hint));
+      } else if (f.t === 'area' || f.t === 'qs' || f.t === 'lines') {
+        var special = f.t !== 'area';
+        if (special && A.txt[f.k] == null) A.txt[f.k] = toText(f, draft);
+        form.appendChild(h('div', { class: 'fld' }, h('label', { for: id }, f.l),
+          h('textarea', { id: id, rows: f.big || special ? 12 : 5, value: special ? A.txt[f.k] : (draft[f.k] || ''), oninput: function (e) { if (special) A.txt[f.k] = e.target.value; else draft[f.k] = e.target.value; } }), hint));
+      } else {
+        form.appendChild(h('div', { class: 'fld' }, h('label', { for: id }, f.l),
+          h('input', { type: 'text', id: id, value: draft[f.k] || '', oninput: function (e) { draft[f.k] = e.target.value; } }), hint));
+      }
+    });
+    var errEl = h('div', { class: 'err', role: 'alert' }, A.err || '');
+    form.appendChild(errEl);
+    form.appendChild(h('div', { class: 'row-actions ui' },
+      h('button', {
+        class: 'btn', type: 'button', onclick: function () {
+          var msg = null;
+          sc.fields.forEach(function (f) {
+            if (msg) return;
+            if (f.t === 'qs' || f.t === 'lines') msg = fromText(f, A.txt[f.k] != null ? A.txt[f.k] : toText(f, draft), draft);
+          });
+          if (!msg && !String(draft[sc.title] || '').trim()) msg = 'عنوان لکھنا ضروری ہے۔';
+          if (!msg && kind === 'quizzes' && !draft.qs.length) msg = 'کم از کم ایک سوال لکھیں۔';
+          if (!msg && kind === 'lectures') {
+            if (draft.kind === 'link' && !safeUrl(draft.url)) msg = 'درست لنک لکھیں (https:// سے شروع)۔';
+            if (draft.kind !== 'link' && !draft.asset) msg = 'پہلے فائل اپلوڈ کریں۔';
+          }
+          if (msg) { A.err = msg; errEl.textContent = msg; return; }
+          var arr = arrForTab(tab);
+          var at = arr.findIndex(function (x) { return x.id === draft.id; });
+          if (at > -1) arr[at] = draft; else arr.push(draft);
+          dirty = true; A.edit = null; A.err = ''; A.txt = {};
+          toast('محفوظ ہو گیا۔ اب "شائع کریں" دبائیں۔');
+          render();
+        }
+      }, 'محفوظ کریں'),
+      h('button', { class: 'btn soft', type: 'button', onclick: function () { A.edit = null; A.err = ''; A.txt = {}; render(); } }, 'منسوخ')));
+    return form;
+  }
+  function uploadFile(file, draft, st) {
+    if (!file) return;
+    var ext = file.name.split('.').pop().toLowerCase();
+    var map = { mp4: 'video/mp4', m4a: 'video/mp4', webm: 'video/webm', pdf: 'application/pdf' };
+    var AUD = { mp3: 1, m4a: 1, ogg: 1, wav: 1, aac: 1 }, IMG = { jpg: 1, jpeg: 1, png: 1, webp: 1, gif: 1 };
+    if (STATIC) { ['mp3', 'ogg', 'wav', 'aac', 'jpg', 'jpeg', 'png', 'webp', 'gif'].forEach(function (k) { map[k] = 'x'; }); }
+    var type = map[ext];
+    if (!type) { st.textContent = ext === 'mp3' ? 'mp3 براہ راست اپلوڈ نہیں ہوتی۔ اسے mp4 یا m4a میں بدل کر اپلوڈ کریں۔' : STATIC ? 'یہ فائل قسم قبول نہیں۔ ویڈیو، آڈیو، تصویر یا pdf اپلوڈ کریں۔' : 'صرف mp4، m4a، webm یا pdf فائل اپلوڈ ہو سکتی ہے۔'; return; }
+    st.textContent = 'اپلوڈ ہو رہی ہے، براہ کرم انتظار کریں…';
+    assetsApi.upload(file, { type: type }).then(function (r) {
+      draft.asset = r.id; draft.fname = file.name;
+      if (ext === 'pdf') draft.kind = 'pdf';
+      else if (STATIC && IMG[ext]) draft.kind = 'image';
+      else if (STATIC && AUD[ext]) draft.kind = 'audio';
+      else if (draft.kind === 'pdf' || draft.kind === 'link' || draft.kind === 'image' || draft.kind === 'audio') draft.kind = 'video';
+      var sel = document.getElementById('f-lectures-kind');
+      if (sel) sel.value = draft.kind;
+      st.textContent = 'اپلوڈ مکمل: ' + file.name;
+    }).catch(function (e) {
+      var c = e && e.code;
+      if (STATIC && c !== 'too_large') { st.textContent = ghErr(e); return; }
+      st.textContent = c === 'too_large' ? 'فائل 20 ایم بی سے بڑی ہے۔ چھوٹی کر کے دوبارہ کوشش کریں۔' : c === 'quota_or_state' ? 'اسٹوریج بھر چکا ہے۔' : 'اپلوڈ نہیں ہو سکی۔ دوبارہ کوشش کریں۔';
+    });
+  }
+  function sectionsAdmin() {
+    var box = h('div');
+    var e = A.secEdit;
+    if (e) {
+      var nameIn = h('input', { type: 'text', id: 'sec-name', value: e.name, oninput: function (ev) { e.name = ev.target.value; } });
+      var descIn = h('input', { type: 'text', id: 'sec-desc', value: e.desc, oninput: function (ev) { e.desc = ev.target.value; } });
+      var err = h('div', { class: 'err', role: 'alert' });
+      box.appendChild(h('div', { class: 'form' },
+        h('div', { class: 'fld' }, h('label', { for: 'sec-name' }, 'سیکشن کا نام (مثلاً: تجوید سیکھیں)'), nameIn),
+        h('div', { class: 'fld' }, h('label', { for: 'sec-desc' }, 'مختصر تعارف'), descIn),
+        h('div', { class: 'fld' }, h('label', { for: 'sec-kind' }, 'اس سیکشن میں کیا شامل ہو گا؟'),
+          A.secNew ? h('select', { id: 'sec-kind', value: e.kind, onchange: function (ev) { e.kind = ev.target.value; } }, Object.keys(KINDS).map(function (k) { return h('option', { value: k }, KINDS[k]); }))
+            : h('div', { class: 'hint' }, KINDS[e.kind]),
+          h('div', { class: 'hint' }, 'لیکچرز: ویڈیو، آڈیو، پی ڈی ایف یا یوٹیوب لنک۔ مضامین: لکھی ہوئی تحریر۔ کوئز: سوال و جواب۔\nقسم بعد میں بدلی نہیں جا سکتی۔')),
+        err,
+        h('div', { class: 'row-actions ui' },
+          h('button', {
+            class: 'btn', type: 'button', onclick: function () {
+              if (!e.name.trim()) { err.textContent = 'سیکشن کا نام لکھنا ضروری ہے۔'; return; }
+              var at = secs().findIndex(function (x) { return x.id === e.id; });
+              if (at > -1) D.sections[at] = e; else { D.sections.push(e); D.custom[e.id] = []; }
+              dirty = true; A.secEdit = null;
+              if (A.secNew) { A.tab = 'sec-' + e.id; toast('سیکشن بن گیا۔ اب اس میں مواد شامل کریں۔'); }
+              A.secNew = false; render();
+            }
+          }, 'محفوظ کریں'),
+          h('button', { class: 'btn soft', type: 'button', onclick: function () { A.secEdit = null; A.secNew = false; render(); } }, 'منسوخ'))));
+      return box;
+    }
+    box.appendChild(h('p', { class: 'note' }, 'یہاں اپنی مرضی کے نئے حصے بنائیں، مثلاً "تجوید"، "بچوں کی دعائیں"، "فقہ کے مسائل"۔ ہر نیا سیکشن ویب سائٹ کے مینو میں خود بخود آ جائے گا۔'));
+    box.appendChild(h('div', { class: 'row-actions ui', style: 'margin:12px 0' },
+      h('button', { class: 'btn', onclick: function () { A.secEdit = { id: uid('c'), name: '', desc: '', kind: 'lectures' }; A.secNew = true; render(); } }, '+ نیا سیکشن بنائیں')));
+    if (!secs().length) box.appendChild(h('p', { class: 'note' }, 'ابھی کوئی اپنا سیکشن نہیں بنایا گیا۔'));
+    secs().forEach(function (s, i) {
+      var confirming = A.del === s.id;
+      box.appendChild(h('div', { class: 'rowline' },
+        h('div', { class: 'main' }, h('b', null, s.name), h('span', null, KINDS[s.kind] + ' · ' + nu((D.custom[s.id] || []).length) + ' آئٹم')),
+        h('div', { class: 'row-actions ui' },
+          confirming ? [
+            h('button', { class: 'btn sm danger', onclick: function () { D.sections.splice(i, 1); delete D.custom[s.id]; dirty = true; A.del = null; render(); } }, 'ہاں، سیکشن اور اس کا مواد حذف کریں'),
+            h('button', { class: 'btn sm soft', onclick: function () { A.del = null; render(); } }, 'رہنے دیں')
+          ] : [
+            h('button', { class: 'btn sm soft', disabled: i === 0, 'aria-label': 'اوپر', onclick: function () { D.sections.splice(i - 1, 0, D.sections.splice(i, 1)[0]); dirty = true; render(); } }, '↑'),
+            h('button', { class: 'btn sm soft', disabled: i === secs().length - 1, 'aria-label': 'نیچے', onclick: function () { D.sections.splice(i + 1, 0, D.sections.splice(i, 1)[0]); dirty = true; render(); } }, '↓'),
+            h('button', { class: 'btn sm soft', onclick: function () { A.secEdit = JSON.parse(JSON.stringify(s)); A.secNew = false; render(); } }, 'نام / تعارف بدلیں'),
+            h('button', { class: 'btn sm danger', onclick: function () { A.del = s.id; render(); } }, 'حذف')
+          ])));
+    });
+    return box;
+  }
+  function siteForm() {
+    var form = h('div', { class: 'form' });
+    [['tagline', 'ہوم پیج کا نعرہ', 'text'], ['about', 'ہمارا مقصد', 'area'], ['contact', 'رابطے کی معلومات (ای میل یا فون نمبر، اختیاری)', 'text']].forEach(function (f) {
+      var id = 'site-' + f[0];
+      form.appendChild(h('div', { class: 'fld' }, h('label', { for: id }, f[1]),
+        f[2] === 'area' ? h('textarea', { id: id, rows: 5, value: D.site[f[0]] || '', oninput: function (e) { D.site[f[0]] = e.target.value; dirty = true; } })
+          : h('input', { type: 'text', id: id, value: D.site[f[0]] || '', oninput: function (e) { D.site[f[0]] = e.target.value; dirty = true; } })));
+    });
+    form.appendChild(h('div', { class: 'hint ui' }, 'تبدیلی کے بعد اوپر "ویب سائٹ پر شائع کریں" دبائیں۔'));
+    return form;
+  }
+  function accessView() {
+    var box = h('div', { class: 'form' });
+    if (STATIC) {
+      box.appendChild(h('h3', { style: 'font-size:1.15rem' }, 'ایڈمن کی حفاظت'));
+      box.appendChild(h('p', null, 'عام ملاقاتی صرف پڑھ سکتے ہیں۔ تبدیلی محفوظ کرنے کے لیے دو چیزیں ضروری ہیں: ایڈمن پاس ورڈ، اور آپ کے GitHub اکاؤنٹ کا ٹوکن (GitHub سیٹنگ ٹیب دیکھیں)۔ ٹوکن کے بغیر کوئی شخص مواد تبدیل نہیں کر سکتا، چاہے وہ پاس ورڈ جان بھی لے۔'));
+      box.appendChild(h('div', { class: 'note' }, 'کسی کو ایڈیٹر بنانے کے لیے GitHub ریپوزٹری کی Settings میں Collaborators سے اسے شامل کریں اور وہ اپنا ٹوکن بنائے۔ ٹوکن اور پاس ورڈ کسی کے ساتھ شیئر نہ کریں۔'));
+      box.appendChild(changePasswordForm());
+      return box;
+    }
+    box.appendChild(h('h3', { style: 'font-size:1.15rem' }, 'کون کیا کر سکتا ہے'));
+    [
+      ['عام ملاقاتی', 'صرف پڑھ، سن اور کوئز کھیل سکتے ہیں۔ انہیں ایڈمن کا بٹن نظر نہیں آتا اور وہ کچھ تبدیل نہیں کر سکتے۔'],
+      ['ایڈیٹر', 'وہ لوگ جنہیں آپ خود اجازت دیں۔ صرف انہیں ایڈمن کا بٹن نظر آتا ہے، اور اسے کھولنے کے لیے پاس ورڈ بھی چاہیے۔'],
+      ['آپ (مالک)', 'تمام اختیارات، اور آپ جسے چاہیں ایڈیٹر بنا یا ہٹا سکتی ہیں۔']
+    ].forEach(function (r) { box.appendChild(h('div', { class: 'rowline' }, h('div', { class: 'main' }, h('b', null, r[0]), h('span', { style: 'white-space:normal;line-height:1.9' }, r[1])))); });
+    box.appendChild(h('h3', { style: 'font-size:1.15rem;margin-top:6px' }, 'کسی کو اجازت دینے کا طریقہ'));
+    box.appendChild(h('ol', { class: 'steps' },
+      h('li', null, 'اس صفحے کے اوپر Share (شیئر) کا مینو کھولیں۔'),
+      h('li', null, 'جس بہن کو اجازت دینی ہے اس کا ای میل ڈالیں اور درجہ Editor (ایڈیٹر) منتخب کریں۔'),
+      h('li', null, 'عام لوگوں کے لیے لنک شیئر کریں تو درجہ صرف دیکھنے والے (Viewer) کا رکھیں۔'),
+      h('li', null, 'اجازت واپس لینی ہو تو اسی مینو میں سے اس شخص کو ہٹا دیں۔')));
+    box.appendChild(h('div', { class: 'note' }, 'اہم: کبھی بھی "لنک والا ہر شخص ترمیم کر سکتا ہے" والی سیٹنگ نہ لگائیں۔ ایڈیٹر کا درجہ صرف اعتماد والے لوگوں کو دیں۔ شائع کرنے کی اجازت کی جانچ سرور خود کرتا ہے، اس لیے بغیر اجازت کوئی شخص صفحے میں تبدیلی شائع نہیں کر سکتا۔'));
+    box.appendChild(changePasswordForm());
+    return box;
+  }
+  function backupData() {
+    return { site: D.site, lectures: D.lectures, stories: D.stories, articles: D.articles, quizzes: D.quizzes, sections: D.sections, custom: D.custom, savedAt: new Date().toISOString() };
+  }
+  function backupView() {
+    var box = h('div', { class: 'form' });
+    box.appendChild(h('p', null, 'اپنے تمام مواد (لیکچرز، قصے، مضامین، کوئز اور سیکشنز) کی ایک کاپی اپنے پاس محفوظ کر لیں۔ بڑی تبدیلی سے پہلے یہ ضرور کریں۔ اپلوڈ شدہ ویڈیو یا پی ڈی ایف فائلیں اس کاپی میں شامل نہیں ہوتیں۔'));
+    var st = h('div', { class: 'err', role: 'status' });
+    box.appendChild(h('div', { class: 'row-actions ui' },
+      h('button', {
+        class: 'btn', disabled: !dlApi, onclick: function () {
+          dlApi.save({ filename: 'haqqul-yaqeen-backup-' + dayKey() + '.json', data: new Blob([JSON.stringify(backupData(), null, 1)], { type: 'application/json' }) })
+            .then(function () { st.textContent = ''; toast('بیک اپ محفوظ ہو گیا'); })
+            .catch(function (e) { st.textContent = e && e.code === 'declined' ? '' : 'بیک اپ محفوظ نہیں ہو سکا۔'; });
+        }
+      }, 'بیک اپ ڈاؤن لوڈ کریں')));
+    if (!dlApi) box.appendChild(h('div', { class: 'hint' }, 'ڈاؤن لوڈ کی سہولت صرف شائع شدہ صفحے پر ایڈیٹر کے اکاؤنٹ سے دستیاب ہے۔'));
+    box.appendChild(h('div', { class: 'fld' }, h('label', { for: 'restore-file' }, 'پرانے بیک اپ سے واپس لائیں'),
+      h('input', {
+        type: 'file', id: 'restore-file', accept: '.json,application/json', onchange: function (e) {
+          var f = e.target.files[0]; if (!f) return;
+          var rd = new FileReader();
+          rd.onload = function () {
+            try {
+              var j = JSON.parse(rd.result);
+              ['lectures', 'stories', 'articles', 'quizzes', 'sections'].forEach(function (k) { if (!Array.isArray(j[k])) throw new Error('bad'); });
+              if (!j.site || typeof j.custom !== 'object') throw new Error('bad');
+              D.site = j.site; D.lectures = j.lectures; D.stories = j.stories; D.articles = j.articles; D.quizzes = j.quizzes; D.sections = j.sections; D.custom = j.custom;
+              dirty = true; A.tab = 'lectures'; toast('بیک اپ لوڈ ہو گیا۔ اب "شائع کریں" دبائیں۔'); render();
+            } catch (x) { st.textContent = 'یہ فائل درست بیک اپ نہیں لگتی۔'; }
+          };
+          rd.readAsText(f);
+        }
+      }),
+      h('div', { class: 'hint' }, 'لوڈ کرنے سے موجودہ مواد بدل جائے گا۔ شائع کرنے سے پہلے آپ نتیجہ دیکھ سکتی ہیں۔')));
+    box.appendChild(st);
+    return box;
+  }
+
+  /* ---------- github (static hosting) ---------- */
+  var GH = store.get('gh', { owner: '', repo: '', branch: 'main', token: '' });
+  function ghReady() { return !!(GH.owner && GH.repo && GH.token); }
+  function ghReq(method, path, body) {
+    return fetch('https://api.github.com/repos/' + encodeURIComponent(GH.owner) + '/' + encodeURIComponent(GH.repo) + path, {
+      method: method,
+      headers: { 'Authorization': 'Bearer ' + GH.token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', 'Content-Type': 'application/json' },
+      body: body ? JSON.stringify(body) : undefined
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (j) {
+        if (!r.ok) { var e = new Error(j.message || 'github'); e.status = r.status; throw e; }
+        return j;
+      });
+    });
+  }
+  function ghErr(e) {
+    var c = e && e.status;
+    if (c === 401) return 'ٹوکن درست نہیں یا ختم ہو چکا ہے۔ GitHub سیٹنگ ٹیب میں نیا ٹوکن ڈالیں۔';
+    if (c === 403) return 'ٹوکن کو اجازت نہیں۔ اس میں "Contents: Read and write" کی اجازت دیں۔';
+    if (c === 404) return 'ریپوزٹری نہیں ملی۔ مالک اور ریپوزٹری کا نام چیک کریں۔';
+    if (e && e.code === 'gh_setup') return 'پہلے GitHub سیٹنگ ٹیب بھریں۔';
+    if (c === 409 || c === 422) return 'GitHub نے فائل قبول نہیں کی۔ دوبارہ کوشش کریں۔';
+    return 'GitHub سے رابطہ نہیں ہو سکا۔ انٹرنیٹ چیک کریں۔';
+  }
+  function strToB64(str) {
+    var bytes = new TextEncoder().encode(str), bin = '';
+    for (var i = 0; i < bytes.length; i += 8192) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 8192));
+    return btoa(bin);
+  }
+  function fileToB64(file) {
+    return new Promise(function (res, rej) {
+      var rd = new FileReader();
+      rd.onload = function () { res(String(rd.result).split(',')[1]); };
+      rd.onerror = function () { rej(new Error('read')); };
+      rd.readAsDataURL(file);
+    });
+  }
+  function ghPut(path, b64, msg) {
+    var url = '/contents/' + path.split('/').map(encodeURIComponent).join('/');
+    return ghReq('GET', url + '?ref=' + encodeURIComponent(GH.branch)).then(function (j) { return j.sha; }, function (e) { if (e.status === 404) return undefined; throw e; })
+      .then(function (sha) { return ghReq('PUT', url, { message: msg, content: b64, branch: GH.branch, sha: sha }); });
+  }
+  function contentJson() {
+    return { site: D.site, lectures: D.lectures, stories: D.stories, articles: D.articles, quizzes: D.quizzes, sections: D.sections, custom: D.custom, auth: D.auth };
+  }
+  function publishStatic() {
+    if (!ghReady()) { toast('پہلے GitHub سیٹنگ ٹیب بھریں۔'); A.tab = 'github'; render(); return; }
+    A.busy = true; render();
+    ghPut('content.json', strToB64(JSON.stringify(contentJson(), null, 1)), 'Update content').then(function () {
+      dirty = false; A.busy = false; toast('محفوظ ہو گیا۔ ایک دو منٹ میں ویب سائٹ پر نظر آئے گا۔'); render();
+    }).catch(function (e) { A.busy = false; toast(ghErr(e)); render(); });
+  }
+  function ghView() {
+    var f = {};
+    var box = h('div', { class: 'form' });
+    box.appendChild(h('h3', { style: 'font-size:1.15rem' }, 'GitHub سے جوڑیں'));
+    box.appendChild(h('p', { class: 'hint ui', style: 'white-space:normal' }, 'یہاں ایک بار سیٹنگ بھر دیں۔ اس کے بعد "شائع کریں" دبانے سے آپ کا مواد خود بخود GitHub پر محفوظ ہو جائے گا اور ویب سائٹ اپ ڈیٹ ہو جائے گی۔ ٹوکن صرف اسی براؤزر میں رہتا ہے۔'));
+    [['owner', 'GitHub یوزر نیم', 'text'], ['repo', 'ریپوزٹری کا نام', 'text'], ['branch', 'برانچ (عموماً main)', 'text'], ['token', 'ذاتی ٹوکن (Personal access token)', 'password']].forEach(function (x) {
+      f[x[0]] = h('input', { type: x[2], id: 'gh-' + x[0], value: GH[x[0]] || '', autocomplete: 'off', dir: 'ltr', style: 'text-align:left' });
+      box.appendChild(h('div', { class: 'fld' }, h('label', { for: 'gh-' + x[0] }, x[1]), f[x[0]]));
+    });
+    var st = h('div', { class: 'err', role: 'status' });
+    function read() { GH = { owner: f.owner.value.trim(), repo: f.repo.value.trim(), branch: (f.branch.value.trim() || 'main'), token: f.token.value.trim() }; }
+    box.appendChild(st);
+    box.appendChild(h('div', { class: 'row-actions ui' },
+      h('button', { class: 'btn', type: 'button', onclick: function () { read(); store.set('gh', GH); st.textContent = 'محفوظ ہو گیا۔'; } }, 'محفوظ کریں'),
+      h('button', {
+        class: 'btn soft', type: 'button', onclick: function () {
+          read(); store.set('gh', GH); st.textContent = 'جانچ ہو رہی ہے…';
+          ghReq('GET', '').then(function (j) { st.textContent = j.permissions && j.permissions.push ? 'سب ٹھیک ہے، آپ تبدیلی محفوظ کر سکتی ہیں۔' : 'ریپوزٹری ملی مگر ٹوکن کو لکھنے کی اجازت نہیں۔'; }).catch(function (e) { st.textContent = ghErr(e); });
+        }
+      }, 'جانچیں'),
+      h('button', { class: 'btn soft', type: 'button', onclick: function () { GH.token = ''; store.set('gh', GH); f.token.value = ''; st.textContent = 'ٹوکن اس براؤزر سے ہٹا دیا گیا۔'; } }, 'ٹوکن ہٹائیں')));
+    box.appendChild(h('details', { class: 'help' }, h('summary', null, 'ٹوکن کیسے بنائیں'),
+      h('ol', { class: 'steps' },
+        h('li', null, 'GitHub میں اوپر دائیں تصویر پر کلک کریں، پھر Settings۔'),
+        h('li', null, 'سب سے نیچے Developer settings، پھر Personal access tokens، پھر Fine-grained tokens، پھر Generate new token۔'),
+        h('li', null, 'Repository access میں "Only select repositories" چن کر اپنی ویب سائٹ والی ریپوزٹری منتخب کریں۔'),
+        h('li', null, 'Permissions میں Repository permissions کھولیں اور Contents کو "Read and write" کر دیں۔'),
+        h('li', null, 'ٹوکن بنا کر کاپی کریں اور یہاں ڈال دیں۔ یہ دوبارہ نہیں دکھایا جاتا۔'))));
+    return box;
+  }
+
+  /* ---------- publish ---------- */
+  function buildDoc() {
+    var css = document.getElementById('hy-style').textContent;
+    var src = document.getElementById('hy-app').textContent;
+    var data = JSON.stringify(D).replace(/</g, '\\u003c');
+    var reset = ':root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}';
+    return '<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>' + reset + '</style></head><body>' +
+      '<title>' + TITLE + '</title><meta name="claude:viewport-fit-sides" content="cover">' +
+      '<link rel="stylesheet" href="' + FONTS.replace(/&/g, '&amp;') + '">' +
+      '<style id="hy-style">' + css + '</style><div id="app"></div>' +
+      '<script type="application/json" id="hy-data">' + data + '<' + '/script>' +
+      '<script id="hy-app">' + src + '<' + '/script></body></html>';
+  }
+  function publish() {
+    if (!unlocked()) { toast('پہلے ایڈمن پینل کھولیں۔'); return; }
+    if (STATIC) { publishStatic(); return; }
+    if (!(window.claude && window.claude.use)) { toast('شائع کرنے کا فیچر صرف شائع شدہ صفحے پر کام کرتا ہے۔'); return; }
+    A.busy = true; render();
+    window.claude.use('artifact').then(function (art) {
+      if (!art) throw { code: 'not_granted' };
+      try { sessionStorage.setItem('hy:pub', '1'); } catch (e) { /* ignore */ }
+      return art.publish(buildDoc());
+    }).catch(function (e) {
+      try { sessionStorage.removeItem('hy:pub'); } catch (x) { /* ignore */ }
+      A.busy = false;
+      var c = e && e.code;
+      toast(c === 'conflict' ? 'کسی اور نے صفحہ تبدیل کر دیا ہے۔ صفحہ دوبارہ لوڈ ہو رہا ہے، پھر تبدیلی دہرائیں۔' :
+        (c === 'not_writer' || c === 'not_granted') ? 'آپ کے پاس اس صفحے میں ترمیم کا اختیار نہیں۔' :
+        c === 'too_large' ? 'مواد بہت بڑا ہو گیا ہے۔' : 'شائع نہیں ہو سکا۔ کچھ دیر بعد دوبارہ کوشش کریں۔');
+      render();
+    });
+  }
+
+  /* ---------- boot ---------- */
+  function loadContent() {
+    if (document.getElementById('hy-q') || location.protocol === 'file:') return Promise.resolve();
+    var timeout = new Promise(function (res) { setTimeout(function () { res(null); }, 3000); });
+    var req = fetch('content.json?v=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+    return Promise.race([req, timeout]).then(function (j) {
+      if (!j || typeof j !== 'object') return;
+      ['lectures', 'stories', 'articles', 'quizzes', 'sections'].forEach(function (k) { if (Array.isArray(j[k])) D[k] = j[k]; });
+      if (j.site && typeof j.site === 'object') D.site = j.site;
+      if (j.custom && typeof j.custom === 'object') D.custom = j.custom;
+      if (j.auth && j.auth.hash && j.auth.salt) D.auth = j.auth;
+    });
+  }
+  buildShell();
+  applyTheme();
+  if (STATIC) {
+    dlApi = {
+      save: function (o) {
+        return new Promise(function (res, rej) {
+          try {
+            var u = URL.createObjectURL(o.data);
+            var a = h('a', { href: u, download: o.filename });
+            document.body.appendChild(a); a.click(); a.remove();
+            setTimeout(function () { URL.revokeObjectURL(u); }, 4000); res();
+          } catch (e) { rej({ code: 'unavailable' }); }
+        });
+      }
+    };
+    assetsApi = {
+      upload: function (file) {
+        if (!ghReady()) return Promise.reject({ code: 'gh_setup' });
+        if (file.size > 25 * 1024 * 1024) return Promise.reject({ code: 'too_large' });
+        return fileToB64(file).then(function (b64) {
+          var name = 'media/' + Date.now().toString(36) + '-' + file.name.replace(/[^A-Za-z0-9._-]/g, '_');
+          return ghPut(name, b64, 'Upload ' + file.name).then(function () { return { id: name }; });
+        });
+      }
+    };
+    viewEl.appendChild(h('div', { class: 'wrap' }, h('p', { class: 'note', style: 'margin-top:30px' }, 'لوڈ ہو رہا ہے…')));
+    loadContent().then(render, render);
+  } else {
+    render();
+    window.claude.use('user').then(function (u) { return u ? u.canEdit() : false; }).then(function (ok) {
+      canEdit = !!ok;
+      if (!canEdit) return null;
+      return Promise.all([window.claude.use('assets').catch(function () { return null; }), window.claude.use('downloads').catch(function () { return null; })]);
+    }).then(function (r) { if (r) { assetsApi = r[0] || null; dlApi = r[1] || null; } render(); }).catch(function () { render(); });
+  }
+})();
+</script>
+</body></html>
