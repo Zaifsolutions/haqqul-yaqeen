@@ -1442,15 +1442,6 @@
    "author": "حضرت مولانا مفتی محمد شفیع عثمانی رحمہ اللہ"
   },
   {
-   "id": "bmwypfvymg8",
-   "cat": "tafseer",
-   "title": "معارف القرآن — جلد چہارم",
-   "series": "معارف القرآن",
-   "vol": "جلد چہارم",
-   "url": "https://archive.org/download/maarif-ul-quran-8volumes/Maarif-ul-Quran%20Vol-04.pdf",
-   "author": "حضرت مولانا مفتی محمد شفیع عثمانی رحمہ اللہ"
-  },
-  {
    "id": "bmwypizdm5f",
    "cat": "tafseer",
    "title": "معارف القرآن — جلد پنجم",
@@ -1460,34 +1451,7 @@
    "author": "حضرت مولانا مفتی محمد شفیع عثمانی رحمہ اللہ"
   },
   {
-   "id": "bmwypjswhvb",
-   "cat": "tafseer",
-   "title": "معارف القرآن — جلد ششم",
-   "series": "معارف القرآن",
-   "vol": "جلد ششم",
-   "url": "https://archive.org/download/maarif-ul-quran-8volumes/Maarif-ul-Quran%20Vol-06.pdf",
-   "author": "حضرت مولانا مفتی محمد شفیع عثمانی رحمہ اللہ"
-  },
-  {
    "id": "bmwypk3hxfj",
-   "cat": "tafseer",
-   "title": "معارف القرآن — جلد ششم",
-   "series": "معارف القرآن",
-   "vol": "جلد ششم",
-   "url": "https://archive.org/download/maarif-ul-quran-8volumes/Maarif-ul-Quran%20Vol-06.pdf",
-   "author": "حضرت مولانا مفتی محمد شفیع عثمانی رحمہ اللہ"
-  },
-  {
-   "id": "bmwypk76ekx",
-   "cat": "tafseer",
-   "title": "معارف القرآن — جلد ششم",
-   "series": "معارف القرآن",
-   "vol": "جلد ششم",
-   "url": "https://archive.org/download/maarif-ul-quran-8volumes/Maarif-ul-Quran%20Vol-06.pdf",
-   "author": "حضرت مولانا مفتی محمد شفیع عثمانی رحمہ اللہ"
-  },
-  {
-   "id": "bmwypk9sng6",
    "cat": "tafseer",
    "title": "معارف القرآن — جلد ششم",
    "series": "معارف القرآن",
@@ -2738,5 +2702,10 @@
   "hash": "9d941c39fc6e30a12179c5c1abb3dcf6d37729ec72eeb9533f1d22140c3388af",
   "iter": 210000
  },
- "removed": []
+ "removed": [
+  "bmwypfvymg8",
+  "bmwypk9sng6",
+  "bmwypk76ekx",
+  "bmwypjswhvb"
+ ]
 }
