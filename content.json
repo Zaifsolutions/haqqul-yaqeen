@@ -1477,24 +1477,6 @@
    "vol": "جلد ہشتم",
    "url": "https://archive.org/download/maarif-ul-quran-8volumes/Maarif-ul-Quran%20Vol-08.pdf",
    "author": "حضرت مولانا مفتی محمد شفیع عثمانی رحمہ اللہ"
-  },
-  {
-   "id": "bmx07nlmvgg",
-   "cat": "tafseer",
-   "title": "معارف القرآن — جلد ہشتم",
-   "series": "معارف القرآن",
-   "vol": "جلد ہشتم",
-   "url": "https://archive.org/download/maarif-ul-quran-8volumes/Maarif-ul-Quran%20Vol-08.pdf",
-   "author": "حضرت مولانا مفتی محمد شفیع عثمانی رحمہ اللہ"
-  },
-  {
-   "id": "bmx07o0vyn7",
-   "cat": "tafseer",
-   "title": "معارف القرآن — جلد ہشتم",
-   "series": "معارف القرآن",
-   "vol": "جلد ہشتم",
-   "url": "https://archive.org/download/maarif-ul-quran-8volumes/Maarif-ul-Quran%20Vol-08.pdf",
-   "author": "حضرت مولانا مفتی محمد شفیع عثمانی رحمہ اللہ"
   }
  ],
  "hadith": [
@@ -2743,6 +2725,8 @@
   "bmwypfvymg8",
   "bmwypk9sng6",
   "bmwypk76ekx",
-  "bmwypjswhvb"
+  "bmwypjswhvb",
+  "bmx07o0vyn7",
+  "bmx07nlmvgg"
  ]
 }
